@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Grupo ASSA";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    ViewBag.ICOHome = "active";
+    ViewBag.ICOCV = "";
+    ViewBag.ICOHacemos = "";
+}
+
+<!-- Carousel
+        ================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img class="img-responsive" src="http://www.grupoassa.com/wp-content/uploads/2013/07/Graficas-nuevas-2.jpg" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>¿Que Hacemos?</h1>
+                    <p>Enterate de nuestra pasion en Grupo ASSA.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Leer Más</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="http://www.grupoassa.com/wp-content/uploads/2012/04/IMG_7679_1-960x319.jpg" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Busquedas Activas</h1>
+                    <p>Conocé nuestras busquedas actuales y postulate!</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver Busquedas Activas</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="http://www.grupoassa.com/wp-content/uploads/2013/07/166-960x319.jpg" alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Postulate en gA</h1>
+                    <p>Envianos tu Curriculum Vitae para formar parte de nuestro equipo.</p>
+                    <p><a class="btn btn-lg btn-primary" href="@Url.Action("Form","Carga")" role="button">Cargar CV</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+

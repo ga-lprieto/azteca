@@ -1,0 +1,393 @@
+﻿@model  Azteca.Models.Postulante
+
+@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+    ViewBag.ICOHome = "";
+    ViewBag.ICOCV = "active";
+    ViewBag.ICOHacemos = "" ;
+}
+<!-- Horizontal Form
+    -->
+<form class="form-horizontal col-lg-offset-2 col-lg-8 center" id="margtop" role="form" method="post" action="@Url.Action("Form","Carga")">
+    <div class="form-group">
+        <label for="cv_name" class="col-sm-3 control-label">Nombre</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="cv_name" id="cv_name" placeholder="Nombre">
+            @Html.ValidationMessageFor(m => m.cv_name)
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_lastname" class="col-sm-3 control-label">Apellido</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="cv_lastname" id="cv_lastname" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_email" class="col-sm-3 control-label">Email</label>
+        <div class="col-sm-9">
+            <input type="email" class="form-control" name="cv_email" id="cv_email" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_dateofbirth" class="col-sm-3 control-label">Fecha de Nacimiento</label>
+        <div class="col-sm-9">
+            <input type="date" class="form-control" name="cv_dateofbirth" id="cv_dateofbirth" placeholder="Fecha de Nacimiento">
+        </div>
+    </div>
+    <div class="form-group has-error">
+        <label for="cv_country" class="col-sm-3 control-label">Pais de Residencia</label>
+        <div class="col-sm-9">
+            <select class="form-control" name="cv_country" id="cv_country">
+                <option value="0">Seleccionar..</option>
+                <option value="AR">Argentina</option>
+                <option value="BR">Brasil</option>
+                <option value="MX">Mexico</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_city" class="col-sm-3 control-label">Ciudad de Residencia</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="cv_city" id="cv_city" placeholder="Ciudad">
+        </div>
+    </div>
+    <hr />
+    <div class="form-group">
+        <label for="cv_degree" class="col-sm-3 control-label">Estudios</label>
+        <div class="col-sm-9">
+            <select class="form-control" name="cv_degree" id="cv_degree">
+                <option value="0">Seleccionar..</option>
+                <option value="1">Licenciatura en Comercialización</option>
+                <option value="2">Abogado</option>
+                <option value="3">Actuario</option>
+                <option value="4">Agrimensor</option>
+                <option value="5">Analista Administrativo Contable</option>
+                <option value="6">Analista de Computación</option>
+                <option value="7">Analista de Sistemas</option>
+                <option value="8">Analista de Sistemas de Información</option>
+                <option value="9">Analista de Computación Administrativa</option>
+                <option value="10">Analista en Informática</option>
+                <option value="11">Analista Programador</option>
+                <option value="12">Aviación Civil</option>
+                <option value="13">Bioingeniera</option>
+                <option value="14">Calígrafo Público Nacional</option>
+                <option value="15">Ciencas Físicas</option>
+                <option value="16">Computador Científico</option>
+                <option value="17">Contador Público</option>
+                <option value="18">Diseño de Indumentaria y Textil</option>
+                <option value="19">Diseño Gráfico</option>
+                <option value="20">Filosofía y Letras</option>
+                <option value="21">Grafoanalista</option>
+                <option value="22">Informática de Gestión</option>
+                <option value="23">Ing. Arenonáutico</option>
+                <option value="24">Ing. Agrónomo</option>
+                <option value="25">Ing. Agropecuario</option>
+
+                <option value="26">Ing. Civil</option>
+
+                <option value="27">Ing. de Telecomunicaciones</option>
+
+                <option value="28">Ing. Electromecánico</option>
+
+                <option value="29">Ing. en alimentos</option>
+
+                <option value="30">Ing. en Computación</option>
+
+                <option value="31">Ing. en Construcciones</option>
+
+                <option value="32">Ing. en Informática</option>
+
+                <option value="33">Ing. en Mant. Industrial</option>
+
+                <option value="34">Ing. en Sistemas</option>
+
+                <option value="35">Ing. en Sistemas de Información</option>
+
+                <option value="36">Ing. Geofísico</option>
+
+                <option value="37">Ing. Gerencial</option>
+
+                <option value="38">Ing. Industrial</option>
+
+                <option value="39">Ing. Mecánica</option>
+
+                <option value="40">Ing. Naval</option>
+
+                <option value="41">Ing. Nuclear</option>
+
+                <option value="42">Ing. Química</option>
+
+                <option value="43">Maestra</option>
+
+                <option value="44">Médico</option>
+
+                <option value="45">Periodismo</option>
+
+                <option value="46">Profesora</option>
+
+                <option value="47">Traductora Pública Inglés</option>
+
+                <option value="48">Lic. Adm. de Empresas</option>
+
+                <option value="49">Lic. Adm. y Sistemas</option>
+
+                <option value="50">Lic. Electrónico</option>
+
+                <option value="51">Lic. en Administración Naviera</option>
+
+                <option value="52">Lic. en Administración de Personal</option>
+
+                <option value="53">Lic. en Análisis de Sistemas</option>
+
+                <option value="54">Lic. en Comercialización</option>
+
+                <option value="55">Lic. en Comercio Exterior</option>
+
+                <option value="56">Lic. en Comercio Internacional</option>
+
+                <option value="57">Lic. en Computación Científica</option>
+
+                <option value="58">Lic. en Cs de la Computación</option>
+
+                <option value="59">Lic. en Cs. de la Comunicación</option>
+
+                <option value="60">Lic. en Derecho</option>
+
+                <option value="61">Lic. en Economía</option>
+
+                <option value="62">Lic. en Economía Empresarial</option>
+
+                <option value="63">Lic. en Enfermería</option>
+
+                <option value="64">Lic. en Exactas</option>
+
+                <option value="65">Lic. en Físicas</option>
+
+                <option value="66">Lic. en Informática</option>
+
+                <option value="67">Lic. en Marketing</option>
+
+                <option value="68">Lic. en Organización de Empresas</option>
+
+                <option value="69">Lic. en Organización de Producción</option>
+
+                <option value="70">Lic. en Organización Industrial</option>
+
+                <option value="71">Lic. en Organización Industrial</option>
+
+                <option value="72">Lic. en Psicopedagogía</option>
+
+                <option value="73">Lic. en Publicidad</option>
+
+                <option value="74">Lic. en Relaciones del Trabajo</option>
+
+                <option value="75">Lic. en Relaciones Industriales</option>
+
+                <option value="76">Lic. en Relaciones Públicas</option>
+
+                <option value="77">Lic. en Sistemas</option>
+
+                <option value="78">Lic. en Sistemas de Inf. de las Org.</option>
+
+                <option value="79">Lic. en Sistemas de Información</option>
+
+                <option value="80">Lic. en Sistemas y Computación</option>
+
+                <option value="81">Lic. en Sociología</option>
+
+                <option value="82">Lic. en Tecnol. Ind. de los Alimentos</option>
+
+                <option value="83">Lic. Organización Industrial</option>
+
+                <option value="84">Licenciado en Psicología</option>
+
+                <option value="85">Marketing Estratégico</option>
+
+                <option value="86">Programador de Sistemas</option>
+
+                <option value="87">Secretaria Ejecutiva</option>
+
+                <option value="88">Secretariado Internacional</option>
+
+                <option value="89">Técnico Analista Programador</option>
+
+                <option value="90">Técnico Electromecánico</option>
+
+                <option value="91">Técnico en Comercialización</option>
+
+                <option value="92">Técnico en Computación</option>
+
+                <option value="93">Técnico en Contabilidad y Costos</option>
+
+                <option value="94">Técnico en Sistemas de Informática</option>
+
+                <option value="95">Técnico Mecánico</option>
+
+                <option value="96">Técnico Sup. en Comercialización</option>
+
+                <option value="97">Técnico Superior en Adm. de Personal</option>
+
+                <option value="98">Técnico Superior  en Administración Rural</option>
+
+                <option value="99">Técnico Superior  en Comercio Exterior</option>
+
+                <option value="100">Técnico Superior en Publicidad</option>
+
+                <option value="101">Técnico Superior en Sistemas</option>
+
+                <option value="102">Técnico Superior  en Turismo</option>
+                <option value="103">Otro...</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_english" class="col-sm-3 control-label">Nivel de Ingles</label>
+        <div class="col-sm-9">
+            <select class="form-control" name="cv_english" id="cv_english">
+                <option value="0">Seleccionar..</option>
+                <option value="1">Basic</option>
+                <option value="2">Intermediate</option>
+                <option value="3">Advanced</option>
+            </select>
+        </div>
+    </div>
+    <hr />
+    <div class="form-group">
+        <label for="cv_howto" class="col-sm-3 control-label">Como supiste de nosotros</label>
+        <div class="col-sm-9">
+            <select class="form-control" name="cv_howto" id="cv_howto">
+                <option value="1">Seleccionar..</option>
+                <option value="2">Publicidad</option>
+                <option value="3">Reporte de Analistas</option>
+                <option value="4">Artículos o Noticias</option>
+                <option value="5">Eventos</option>
+                <option value="6">Empleado de Grupo Assa</option>
+                <option value="7">Recomendación</option>
+                <option value="8">WebLinks</option>
+                <option value="9">Búsqueda en Internet</option>
+                <option value="10">Redes Sociales</option>
+                <option value="11">Otros</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_availability" class="col-sm-3 control-label">Disponibilidad</label>
+        <div class="col-sm-9">
+            <select class="form-control" name="cv_availability" id="cv_availability">
+                <option value="0">Seleccionar..</option>
+                <option value="1">Part time (6 horas)</option>
+                <option value="2">Full Time</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_travel_disp" class="col-sm-3 control-label">Disponibilidad para Viajar</label>
+        <div class="col-sm-9">
+            <label class="radio-inline">
+                <input type="radio" name="cv_travel_disp" id="cv_travel_disp" value="Y"> Si
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="cv_travel_disp" id="cv_travel_disp" value="N" checked> No
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_jobareas" class="col-sm-3 control-label">Areas de Trabajo</label>
+        <div class="col-sm-9">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="1" name="cv_jobareas[]"> Jovenes Profesionales
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="2" name="cv_jobareas[]"> Consultoria SAP
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="3" name="cv_jobareas[]"> Consultoria Oracle
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="4" name="cv_jobareas[]"> Seguridad IT
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="5" name="cv_jobareas[]"> Consultoria en Procesos
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="6" name="cv_jobareas[]"> Programación
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="7" name="cv_jobareas[]"> Administracion de Servidores
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="8" name="cv_jobareas[]"> RRHH
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="9" name="cv_jobareas[]"> Administración
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="10" name="cv_jobareas[]"> Marketing
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="11" name="cv_jobareas[]"> Legales
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="12" name="cv_jobareas[]"> Secretarias/Recepcionistas
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="13" name="cv_jobareas[]"> Finanzas
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_otherinfo" class="col-sm-3 control-label">Otros Datos</label>
+        <div class="col-sm-9">
+            <textarea class="form-control" name="cv_otherinfo" id="cv_otherinfo" rows="3"></textarea>
+        </div>
+    </div>
+    <hr />
+    <div class="form-group">
+        <label for="cv_salary" class="col-sm-3 control-label">Remuneracion Pretendida</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="cv_salary" id="cv_salary" placeholder="Remuneracion Pretendida">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="cv_file" class="col-sm-3 control-label">Curriculum Vitae</label>
+        <div class="col-sm-9">
+            <input type="file" class="form-control" name="cv_file" id="cv_file">
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-9">
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </div>
+    </div>
+
+
+</form> <!-- /.form-horizontal -->

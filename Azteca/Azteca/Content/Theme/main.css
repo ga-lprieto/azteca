@@ -1,0 +1,61 @@
+﻿.navbar-brand img{
+height:42px;
+width:143px;
+}
+
+.navbar-brand{
+padding-top:0px;
+}
+
+
+
+.navbar-default{
+background:#FFFFFF;
+}
+
+
+#margtop{
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 30px;
+  top:0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  background-color: rgba(0,0,0,0.4) ;
+  border-radius :15px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 960px;
+  width:100%;
+  min-height:319px;
+  height: 400px;
+}
+
+
+#content{
+    position:relative;
+    top:51px;
+}

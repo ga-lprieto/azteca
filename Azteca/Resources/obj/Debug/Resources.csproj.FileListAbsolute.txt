@@ -1,0 +1,13 @@
+C:\Visual Studio 2013\Projects\Azteca\Resources\bin\Debug\Resources.dll
+C:\Visual Studio 2013\Projects\Azteca\Resources\bin\Debug\Resources.pdb
+C:\Visual Studio 2013\Projects\Azteca\Resources\bin\Debug\pt\Resources.resources.dll
+C:\Visual Studio 2013\Projects\Azteca\Resources\bin\Debug\es\Resources.resources.dll
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.Resources.resources
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.Resources.pt.resources
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.Resources.es.resources
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\pt\Resources.resources.dll
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\es\Resources.resources.dll
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.dll
+C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.pdb
