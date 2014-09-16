@@ -22,6 +22,7 @@
         <label for="cv_lastname" class="col-sm-3 control-label">Apellido</label>
         <div class="col-sm-9">
             <input type="text" class="form-control" name="cv_lastname" id="cv_lastname" placeholder="Apellido">
+            @Html.ValidationMessageFor(m => m.cv_lastname)
         </div>
     </div>
     <div class="form-group">
