@@ -22,6 +22,7 @@ namespace Azteca.Controllers
         {
             if (ModelState.IsValid)
             {
+                //send mail
                 ViewBag.cv_name = model.cv_name;
                 return this.RedirectToAction("Submit");
 

@@ -10,7 +10,7 @@
 }
 <!-- Horizontal Form
     -->
-<form class="form-horizontal col-lg-offset-2 col-lg-8 center" id="margtop" role="form" method="post" action="@Url.Action("Form","Carga")">
+<form class="form-horizontal col-lg-offset-2 col-lg-8 center" id="margtop" role="form" enctype="multipart/form-data" method="post" action="@Url.Action("Form","Carga")">
     <div class="form-group">
         <label for="cv_name" class="col-sm-3 control-label">Nombre</label>
         <div class="col-sm-9">
@@ -29,12 +29,14 @@
         <label for="cv_email" class="col-sm-3 control-label">Email</label>
         <div class="col-sm-9">
             <input type="email" class="form-control" name="cv_email" id="cv_email" placeholder="Email">
+            @Html.ValidationMessageFor(m => m.cv_email)
         </div>
     </div>
     <div class="form-group">
         <label for="cv_dateofbirth" class="col-sm-3 control-label">Fecha de Nacimiento</label>
         <div class="col-sm-9">
             <input type="date" class="form-control" name="cv_dateofbirth" id="cv_dateofbirth" placeholder="Fecha de Nacimiento">
+            @Html.ValidationMessageFor(m => m.cv_dateofbirth)
         </div>
     </div>
     <div class="form-group has-error">
@@ -46,12 +48,14 @@
                 <option value="BR">Brasil</option>
                 <option value="MX">Mexico</option>
             </select>
+            @Html.ValidationMessageFor(m => m.cv_country)
         </div>
     </div>
     <div class="form-group">
         <label for="cv_city" class="col-sm-3 control-label">Ciudad de Residencia</label>
         <div class="col-sm-9">
             <input type="text" class="form-control" name="cv_city" id="cv_city" placeholder="Ciudad">
+            @Html.ValidationMessageFor(m => m.cv_city)
         </div>
     </div>
     <hr />
@@ -241,6 +245,7 @@
                 <option value="102">Técnico Superior  en Turismo</option>
                 <option value="103">Otro...</option>
             </select>
+            @Html.ValidationMessageFor(m => m.cv_degree)
         </div>
     </div>
     <div class="form-group hidden">
@@ -257,6 +262,7 @@
                 <option value="2">Intermediate</option>
                 <option value="3">Advanced</option>
             </select>
+            @Html.ValidationMessageFor(m => m.cv_english)
         </div>
     </div>
     <hr />
@@ -264,17 +270,17 @@
         <label for="cv_howto" class="col-sm-3 control-label">Como supiste de nosotros</label>
         <div class="col-sm-9">
             <select class="form-control" name="cv_howto" id="cv_howto">
-                <option value="1">Seleccionar..</option>
-                <option value="2">Publicidad</option>
-                <option value="3">Reporte de Analistas</option>
-                <option value="4">Artículos o Noticias</option>
-                <option value="5">Eventos</option>
-                <option value="6">Empleado de Grupo Assa</option>
-                <option value="7">Recomendación</option>
-                <option value="8">WebLinks</option>
-                <option value="9">Búsqueda en Internet</option>
-                <option value="10">Redes Sociales</option>
-                <option value="11">Otros</option>
+                <option value="">Seleccionar..</option>
+                <option value="1">Publicidad</option>
+                <option value="2">Reporte de Analistas</option>
+                <option value="3">Artículos o Noticias</option>
+                <option value="4">Eventos</option>
+                <option value="5">Empleado de Grupo Assa</option>
+                <option value="6">Recomendación</option>
+                <option value="7">WebLinks</option>
+                <option value="8">Búsqueda en Internet</option>
+                <option value="9">Redes Sociales</option>
+                <option value="10">Otros</option>
             </select>
         </div>
     </div>
@@ -286,6 +292,7 @@
                 <option value="1">Part time (6 horas)</option>
                 <option value="2">Full Time</option>
             </select>
+            @Html.ValidationMessageFor(m => m.cv_availability)
         </div>
     </div>
     <div class="form-group">
@@ -297,6 +304,7 @@
             <label class="radio-inline">
                 <input type="radio" name="cv_travel_disp" id="cv_travel_disp" value="N" checked> No
             </label>
+            @Html.ValidationMessageFor(m => m.cv_travel_disp)
         </div>
     </div>
     <div class="form-group">
@@ -304,68 +312,69 @@
         <div class="col-sm-9">
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="1" name="cv_jobareas[]"> Jovenes Profesionales
+                    <input type="checkbox" value="1" name="cv_jobareas"> Jovenes Profesionales
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="2" name="cv_jobareas[]"> Consultoria SAP
+                    <input type="checkbox" value="2" name="cv_jobareas"> Consultoria SAP
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="3" name="cv_jobareas[]"> Consultoria Oracle
+                    <input type="checkbox" value="3" name="cv_jobareas"> Consultoria Oracle
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="4" name="cv_jobareas[]"> Seguridad IT
+                    <input type="checkbox" value="4" name="cv_jobareas"> Seguridad IT
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="5" name="cv_jobareas[]"> Consultoria en Procesos
+                    <input type="checkbox" value="5" name="cv_jobareas"> Consultoria en Procesos
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="6" name="cv_jobareas[]"> Programación
+                    <input type="checkbox" value="6" name="cv_jobareas"> Programación
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="7" name="cv_jobareas[]"> Administracion de Servidores
+                    <input type="checkbox" value="7" name="cv_jobareas"> Administracion de Servidores
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="8" name="cv_jobareas[]"> RRHH
+                    <input type="checkbox" value="8" name="cv_jobareas"> RRHH
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="9" name="cv_jobareas[]"> Administración
+                    <input type="checkbox" value="9" name="cv_jobareas"> Administración
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="10" name="cv_jobareas[]"> Marketing
+                    <input type="checkbox" value="10" name="cv_jobareas"> Marketing
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="11" name="cv_jobareas[]"> Legales
+                    <input type="checkbox" value="11" name="cv_jobareas"> Legales
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="12" name="cv_jobareas[]"> Secretarias/Recepcionistas
+                    <input type="checkbox" value="12" name="cv_jobareas"> Secretarias/Recepcionistas
                 </label>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="13" name="cv_jobareas[]"> Finanzas
+                    <input type="checkbox" value="13" name="cv_jobareas"> Finanzas
                 </label>
+                @Html.ValidationMessageFor(m => m.cv_jobareas)
             </div>
         </div>
     </div>
@@ -380,12 +389,14 @@
         <label for="cv_salary" class="col-sm-3 control-label">Remuneracion Pretendida</label>
         <div class="col-sm-9">
             <input type="text" class="form-control" name="cv_salary" id="cv_salary" placeholder="Remuneracion Pretendida">
+            @Html.ValidationMessageFor(m => m.cv_salary)
         </div>
     </div>
     <div class="form-group">
         <label for="cv_file" class="col-sm-3 control-label">Curriculum Vitae</label>
         <div class="col-sm-9">
             <input type="file" class="form-control" name="cv_file" id="cv_file">
+            @Html.ValidationMessageFor(m => m.cv_file)
         </div>
     </div>
     <br />

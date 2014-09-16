@@ -8,15 +8,15 @@ namespace Azteca.Models
 {
     public class Postulante
     {
-        [Required(ErrorMessage = "Name cannot be empty")]
+        [Required]
         [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string cv_name { get; set; }
 
-        [Required(ErrorMessage = "Last Name cannot be empty")]
+        [Required]
         [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string cv_lastname { get; set; }
 
-        [Required(ErrorMessage = "Last Name cannot be empty")]
+        [Required]
         [EmailAddress(ErrorMessage = "It's not a valid E-mail")]
         [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string cv_email { get; set; }
