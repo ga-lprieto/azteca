@@ -10,18 +10,19 @@
 }
 <!-- Horizontal Form
     -->
-<form class="form-horizontal col-lg-offset-2 col-lg-8 center" id="margtop" role="form" enctype="multipart/form-data" method="post" action="@Url.Action("Form","Carga")">
+<form class="form-horizontal col-lg-offset-2 col-lg-8 center" id="margtop" role="form" enctype="multipart/form-data" method="post" action="@Url.Action("Submit","Carga")">
     <div class="form-group">
         <label for="cv_name" class="col-sm-3 control-label">Nombre</label>
         <div class="col-sm-9">
-            <input type="text" class="form-control" name="cv_name" id="cv_name" placeholder="Nombre">
+            <!-- <input type="text" class="form-control" name="cv_name" id="cv_name" placeholder="Nombre"> -->
+            @Html.TextBoxFor(m => m.cv_name)
             @Html.ValidationMessageFor(m => m.cv_name)
         </div>
     </div>
     <div class="form-group">
         <label for="cv_lastname" class="col-sm-3 control-label">Apellido</label>
         <div class="col-sm-9">
-            <input type="text" class="form-control" name="cv_lastname" id="cv_lastname" placeholder="Apellido">
+            <input type="text" class="form-control" name="cv_lastname" id="cv_lastname" placeholder="Apellido" value="@Request["cv_lastname"]">
             @Html.ValidationMessageFor(m => m.cv_lastname)
         </div>
     </div>
@@ -39,10 +40,10 @@
             @Html.ValidationMessageFor(m => m.cv_dateofbirth)
         </div>
     </div>
-    <div class="form-group has-error">
+    <div class="form-group">
         <label for="cv_country" class="col-sm-3 control-label">Pais de Residencia</label>
         <div class="col-sm-9">
-            <select class="form-control" name="cv_country" id="cv_country">
+            <select class="form-control" name="cv_country" id="cv_country" >
                 <option value="0">Seleccionar..</option>
                 <option value="AR">Argentina</option>
                 <option value="BR">Brasil</option>
@@ -257,10 +258,14 @@
         <label for="cv_english" class="col-sm-3 control-label">Nivel de Ingles</label>
         <div class="col-sm-9">
             <select class="form-control" name="cv_english" id="cv_english">
-                <option value="0">Seleccionar..</option>
-                <option value="1">Basic</option>
-                <option value="2">Intermediate</option>
-                <option value="3">Advanced</option>
+                <option value="">Seleccionar..</option>
+                <option value="1">Beginner</option>
+                <option value="2">Elementary</option>
+                <option value="3">Pre-Intermediate</option>
+                <option value="4">Intermediate</option>
+                <option value="2">Upper-Intermediate</option>
+                <option value="2">Advanced</option>
+                <option value="2">Bilingual</option>
             </select>
             @Html.ValidationMessageFor(m => m.cv_english)
         </div>
@@ -374,8 +379,8 @@
                 <label>
                     <input type="checkbox" value="13" name="cv_jobareas"> Finanzas
                 </label>
-                @Html.ValidationMessageFor(m => m.cv_jobareas)
             </div>
+            @Html.ValidationMessageFor(m => m.cv_jobareas)
         </div>
     </div>
     <div class="form-group">
@@ -421,6 +426,17 @@
             } else {
                 $("#cv_other").parent().parent().addClass("hidden");
             }
+        });
+
+        $(".form-group span").each(function () {
+            var text = $(this).text();
+            if (text != "") {
+                $(this).parents(".form-group").addClass("has-error");
+            }
+        });
+
+        $("select").each(function () {
+            $(this).name()
         });
     });
 

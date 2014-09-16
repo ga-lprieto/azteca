@@ -17,23 +17,18 @@ namespace Azteca.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult Form(Postulante model)
+
+        [AcceptVerbs("POST")]
+        public ActionResult Submit(Postulante model)
         {
             if (ModelState.IsValid)
             {
                 //send mail
                 ViewBag.cv_name = model.cv_name;
-                return this.RedirectToAction("Submit");
+                return View();
 
             }
-            return View(model);
-
-        }
-
-        public ActionResult Submit()
-        {
-            return View();
+            return View("form",model);
         }
 
 
