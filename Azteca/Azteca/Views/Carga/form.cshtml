@@ -243,7 +243,7 @@
             </select>
         </div>
     </div>
-    <div class="form-group">
+    <div class="form-group hidden">
         <div class="col-sm-offset-3 col-sm-9">
             <input type="text" class="form-control" name="cv_other" id="cv_other" placeholder="Otros Estudios">
         </div>
@@ -397,3 +397,22 @@
 
 
 </form> <!-- /.form-horizontal -->
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#cv_degree").change( function () {
+            var option = $("#cv_degree option:selected");
+            if (option.val() == "103") {
+                $("#cv_other").parent().parent().removeClass("hidden");
+            } else {
+                $("#cv_other").parent().parent().addClass("hidden");
+            }
+        });
+    });
+
+
+
+</script>

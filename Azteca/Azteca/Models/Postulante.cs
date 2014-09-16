@@ -24,26 +24,37 @@ namespace Azteca.Models
         [Required(ErrorMessage = "Birth date cannot be empty")]
         public DateTime cv_dateofbirth { get; set; }
 
+        [Required]
         public string cv_country { get; set; }
 
+        [Required]
         public string cv_city { get; set; }
 
+        [Required]
         public string cv_degree { get; set; }
 
+        public string cv_other { get; set; }
+
+        [Required]
         public string cv_english { get; set; }
 
         public string cv_howto { get; set; }
 
+        [Required]
         public string cv_availability { get; set; }
 
+        [Required]
         public string cv_travel_disp { get; set; }
 
+        [Required]
         public string[] cv_jobareas { get; set; }
 
         public string cv_otherinfo { get; set; }
 
+        [Required]
         public string cv_salary { get; set; }
 
+        [Required]
         public HttpPostedFileBase cv_file { get; set; }
     }
 }
