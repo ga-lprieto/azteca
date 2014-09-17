@@ -436,7 +436,8 @@
         });
 
         $("select").each(function () {
-            $(this).name()
+            var name = $(this).attr("name");
+            name = @Request[name]
         });
     });
 
