@@ -139,10 +139,12 @@
     <Content Include="Content\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\Bootstrap\js\jquery-1.11.1.min.js" />
     <Content Include="Content\Images\Flags\Argentina.png" />
+    <Content Include="Content\Images\Flags\assa01.jpg" />
     <Content Include="Content\Images\Flags\Brazil.png" />
     <Content Include="Content\Images\Flags\ga.jpg" />
     <Content Include="Content\Images\Flags\Usa.png" />
     <Content Include="Content\Theme\main.css" />
+    <Content Include="Content\Theme\home.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\TwitterBootstrapMvcJs.js" />
     <Content Include="Templates\emailTemplate.html" />
