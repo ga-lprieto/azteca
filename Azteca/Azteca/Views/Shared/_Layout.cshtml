@@ -12,54 +12,64 @@
     <meta name="author" content="Grupo ASSA">
     <title>@ViewBag.Title</title>
 
-    <script src="~/Content/Bootstrap/js/jquery.min.js"></script>
+    
     <link href="~/Content/Bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <link href="~/Content/Bootstrap/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" />
-    <script src="~/Content/Bootstrap/js/bootstrap.min.js"></script>
-    <link href="~/Content/Theme/main.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/Bootstrap/css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <!-- HEADER BOOTSTRAP -->
+    <div class="container">
+        <div class="navbar">
+            <h1><img src="http://grupoassa.com/wp-content/themes/grupoAssa/images/logo.png" title="Grupo ASSA" /></h1>
+            <div class="navbar-inner">
+                <div class="container-fluid">
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/Content/Images/Flags/ga.jpg" /></a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="@ViewBag.ICOHome"><a href="@Url.Action("Index","Home")"><span class="glyphicon glyphicon-home"></span></a></li>
-                    <li class="@ViewBag.ICOHacemos"><a href="#">¿Qué hacemos?</a></li>
-                    <li class="@ViewBag.ICOCV"><a href="@Url.Action("Form","Carga")">Ingresá tu CV</a></li>
-                    <li class="nav-divider"></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lenguaje <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li class="active"><a href="#"><img src="~/Content/Images/Flags/Argentina.png" /> Español</a></li>
-                            <li><a href="#"><img src="~/Content/Images/Flags/Brazil.png" /> Portuges</a></li>
-                            <li><a href="#"><img src="~/Content/Images/Flags/Usa.png" /> English</a></li>
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+
+                    <!-- Be sure to leave the brand out there if you want it shown -->
+                    <a class="brand" href="#">Empleos</a>
+
+                    <!-- Everything you want hidden at 940px or less, place within here -->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="divider divider-vertical"></li>
+                            <li class="@ViewBag.ICOHome"><a href="@Url.Action("Index","Home")"><i class="icon-home"></i></a></li>
+                            <li class="@ViewBag.ICOHacemos"><a>¿Qué Hacemos?</a></li>
+                            <li class="@ViewBag.ICOCV"><a href="@Url.Action("Form","Carga")">Carga tu CV</a></li>
                         </ul>
-                    </li>
-                </ul>
-            </div><!--/.navbar-collapse -->
+                        
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lenguaje <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a><img src="~/Content/Images/Flags/Argentina.png" style="display:inline-block; padding-right: 3px"/> Español</a></li>
+                                    <li><a><img src="~/Content/Images/Flags/Brazil.png" style="display:inline-block; padding-right: 3px" /> Portugues</a></li>
+                                    <li><a><img src="~/Content/Images/Flags/Usa.png" style="display:inline-block; padding-right: 3px" /> Ingles</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- END HEADER BOOTSTRAP -->
+        <div id="content">
+            @RenderBody()
+        </div>
+        <div id="footer">
+
         </div>
     </div>
-
-
-    <!-- END HEADER BOOTSTRAP -->
-    <div id="content">
-        @RenderBody()
-    </div>
-    <div id="footer">
-    
-    </div>
+    <script src="~/Content/Bootstrap/js/jquery-1.11.1.min.js"></script>
+    <script src="~/Content/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/TwitterBootstrapMvcJs.js"></script>
 </body>
 </html>

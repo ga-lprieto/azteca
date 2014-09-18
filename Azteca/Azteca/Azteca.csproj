@@ -129,13 +129,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Content Include="Content\Bootstrap\css\bootstrap-theme.css" />
-    <Content Include="Content\Bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Content\Bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="Content\Bootstrap\css\bootstrap-responsive.min.css" />
     <Content Include="Content\Bootstrap\css\bootstrap.css" />
     <Content Include="Content\Bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\Bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="Content\Bootstrap\img\glyphicons-halflings.png" />
     <Content Include="Content\Bootstrap\js\bootstrap.js" />
     <Content Include="Content\Bootstrap\js\bootstrap.min.js" />
-    <Content Include="Content\Bootstrap\js\jquery.min.js" />
+    <Content Include="Content\Bootstrap\js\jquery-1.11.1.min.js" />
     <Content Include="Content\Images\Flags\Argentina.png" />
     <Content Include="Content\Images\Flags\Brazil.png" />
     <Content Include="Content\Images\Flags\ga.jpg" />
@@ -161,14 +163,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_Layout.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\Bootstrap\css\bootstrap-theme.css.map" />
-    <Content Include="Content\Bootstrap\css\bootstrap.css.map" />
-    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\index.cshtml" />
