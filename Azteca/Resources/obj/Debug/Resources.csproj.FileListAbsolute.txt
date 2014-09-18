@@ -11,3 +11,16 @@ C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\pt\Resources.resources
 C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\es\Resources.resources.dll
 C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.dll
 C:\Visual Studio 2013\Projects\Azteca\Resources\obj\Debug\Resources.pdb
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\Resources.dll
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\Resources.pdb
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\pt\Resources.resources.dll
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\es\Resources.resources.dll
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.Resources.resources
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.Resources.pt.resources
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.Resources.es.resources
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\pt\Resources.resources.dll
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\es\Resources.resources.dll
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.dll
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.pdb

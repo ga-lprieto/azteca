@@ -15,10 +15,13 @@
     
     <link href="~/Content/Bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
     <link href="~/Content/Bootstrap/css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/Theme/main.css" type="text/css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="http://www.grupoassa.com/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- HEADER BOOTSTRAP -->
-    <div class="container">
+    <div class="container span10 offset1">
         <div class="navbar">
             <h1><img src="http://grupoassa.com/wp-content/themes/grupoAssa/images/logo.png" title="Grupo ASSA" /></h1>
             <div class="navbar-inner">
@@ -37,7 +40,6 @@
                     <!-- Everything you want hidden at 940px or less, place within here -->
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="divider divider-vertical"></li>
                             <li class="@ViewBag.ICOHome"><a href="@Url.Action("Index","Home")"><i class="icon-home"></i></a></li>
                             <li class="@ViewBag.ICOHacemos"><a>¿Qué Hacemos?</a></li>
                             <li class="@ViewBag.ICOCV"><a href="@Url.Action("Form","Carga")">Carga tu CV</a></li>

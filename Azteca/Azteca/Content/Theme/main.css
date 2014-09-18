@@ -1,61 +1,48 @@
-﻿.navbar-brand img{
-height:42px;
-width:143px;
-}
-
-.navbar-brand{
-padding-top:0px;
-}
-
-
-
-.navbar-default{
-background:#FFFFFF;
-}
-
-
-#margtop{
-    margin-top:20px;
+﻿.navbar-inner {
+    min-height: 56px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #ECECEC !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px !important;
+    filter: inherit !important;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.065);
 }
 
 
-
-
-
-
-
-
-
-/* Carousel base class */
-.carousel {
-  height: 400px;
-  margin-bottom: 30px;
-  top:0px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-  background-color: rgba(0,0,0,0.4) ;
-  border-radius :15px;
+.nav-collapse .nav li a {
+    font: normal 14px Arial !important;
+    padding: 20px 20px;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 400px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 960px;
-  width:100%;
-  min-height:319px;
-  height: 400px;
+.divider-vertical {
+    height: 56px !important;
 }
 
+.navbar .btn{
+    margin-top:10px;
+}
 
-#content{
-    position:relative;
-    top:51px;
+.navbar .btn-navbar{
+    padding: 10px 13px;
+}
+
+.brand {
+    padding-top:18px !important;
+    padding-bottom: 18px !important;
+
+}
+
+.dropdown-menu li a {
+    padding:10px !important;
+}
+
+h1 {
+    margin-bottom:29px;
+    margin-top:34px;
+    
 }
