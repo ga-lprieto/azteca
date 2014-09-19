@@ -9,7 +9,6 @@
     ViewBag.ICOHacemos = "" ;
 }
 
-
 @using (var f = Html.Bootstrap().Begin(new Form("Submit", "Carga").Class("form-horizontal")))
 {
     @(f.ControlGroup().TextBoxFor(m => m.cv_name)
@@ -23,32 +22,18 @@
     )
     @(f.ControlGroup().TextBoxFor(m => m.cv_dateofbirth)
         .Placeholder("Nombre")
+        .Class("hasDatepicker")
     )
+    
     @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton())
 }
 
 
 
 <script>
-    $(document).ready(function () {
-        $("#cv_degree").change( function () {
-            var option = $("#cv_degree option:selected");
-            if (option.val() == "103") {
-                $("#cv_other").parent().parent().removeClass("hidden");
-            } else {
-                $("#cv_other").parent().parent().addClass("hidden");
-            }
-        });
 
-        $(".form-group span").each(function () {
-            var text = $(this).text();
-            if (text != "") {
-                $(this).parents(".form-group").addClass("has-error");
-            }
-        });
+    $(".hasDatepicker").datepicker();
 
-        
-    });
 
 
 
