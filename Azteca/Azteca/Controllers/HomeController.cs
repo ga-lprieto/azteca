@@ -16,5 +16,8 @@ namespace Azteca.Controllers
             return View();
         }
 
+        public ActionResult AboutGA() {
+            return View();
+        }
     }
 }

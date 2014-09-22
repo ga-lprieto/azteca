@@ -8,32 +8,40 @@
     ViewBag.ICOCV = "active";
     ViewBag.ICOHacemos = "" ;
 }
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+            asdasdasd
+        </div>
+        <div class="span7">
+            @using (var f = Html.Bootstrap().Begin(new Form("Submit", "Carga").Class("form-horizontal")))
+            {
+                @(f.ControlGroup().TextBoxFor(m => m.cv_name)
+                .Placeholder("Nombre")
+                )
+                @(f.ControlGroup().TextBoxFor(m => m.cv_lastname)
+                .Placeholder("Apellido")
+                )
+                @(f.ControlGroup().TextBoxFor(m => m.cv_email)
+                .Placeholder("E-Mail")
+                )
+                @(f.ControlGroup().TextBoxFor(m => m.cv_dateofbirth)
+                .Placeholder("dd/mm/yyyy")
+                .Class("hasDatepicker")
+                )
 
-@using (var f = Html.Bootstrap().Begin(new Form("Submit", "Carga").Class("form-horizontal")))
-{
-    @(f.ControlGroup().TextBoxFor(m => m.cv_name)
-        .Placeholder("Nombre")
-        )
-    @(f.ControlGroup().TextBoxFor(m => m.cv_lastname)
-        .Placeholder("Apellido")
-    )
-    @(f.ControlGroup().TextBoxFor(m => m.cv_email)
-        .Placeholder("Nombre")
-    )
-    @(f.ControlGroup().TextBoxFor(m => m.cv_dateofbirth)
-        .Placeholder("Nombre")
-        .Class("hasDatepicker")
-    )
-    
-    @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton())
-}
-
-
+                @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton())
+            }
+        </div>
+    </div>
+</div>
 
 <script>
 
     $(".hasDatepicker").datepicker();
-
+    $.datepicker.setDefaults({
+        dateFormat: 'dd/mm/yy'
+    });
 
 
 
