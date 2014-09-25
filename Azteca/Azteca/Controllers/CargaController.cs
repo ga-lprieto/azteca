@@ -14,23 +14,31 @@ namespace Azteca.Controllers
 
         public ActionResult Form()
         {
+            string[] countries = { "Argentina", "Brasil", "Mexico"};
+            ViewBag.countryList = new SelectList(countries);
             return View();
         }
 
 
-        [AcceptVerbs("POST")]
-        public ActionResult Submit(Postulante model)
+        [HttpPost]
+        public ActionResult Form(Postulante model)
         {
             if (ModelState.IsValid)
             {
                 //send mail
                 ViewBag.cv_name = model.cv_name;
-                return View();
+                return this.RedirectToAction("Submit");
 
             }
-            return View("form",model);
+
+            string[] countries = { "Argentina", "Brasil", "Mexico" };
+            ViewBag.countryList = new SelectList(countries);
+            return View(model);
         }
 
+        public ActionResult Submit() {
+            return View();
+        }
 
     }
 }

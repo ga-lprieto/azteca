@@ -8,29 +8,43 @@
     ViewBag.ICOCV = "active";
     ViewBag.ICOHacemos = "" ;
 }
+<style>
+    .required {
+        color:red;
+        font-weight:bold;
+        margin-left: 2px;
+    
+    }
+
+</style>
+
+
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span3">
+        <div class="span3 visible-desktop">
             asdasdasd
         </div>
         <div class="span7">
-            @using (var f = Html.Bootstrap().Begin(new Form("Submit", "Carga").Class("form-horizontal")))
+            @using (var f = Html.Bootstrap().Begin(new Form("Form", "Carga").Class("form-horizontal")))
             {
                 @(f.ControlGroup().TextBoxFor(m => m.cv_name)
-                .Placeholder("Nombre")
+                .Placeholder("ex: Juan")
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_lastname)
-                .Placeholder("Apellido")
+                .Placeholder("ex: Perez")
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_email)
-                .Placeholder("E-Mail")
+                .Placeholder("ex: prueba@ejemplo.com")
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_dateofbirth)
                 .Placeholder("dd/mm/yyyy")
                 .Class("hasDatepicker")
                 )
+                @(f.ControlGroup().DropDownListFor(m => m.cv_country, (SelectList)ViewBag.countryList)
+                )
+                
 
-                @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton())
+                @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton().Class("btn-success"))
             }
         </div>
     </div>
