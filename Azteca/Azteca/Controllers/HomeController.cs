@@ -25,5 +25,10 @@ namespace Azteca.Controllers
         {
             return View();
         }
+
+        public ActionResult GAPolicies()
+        {
+            return View();
+        }
     }
 }
