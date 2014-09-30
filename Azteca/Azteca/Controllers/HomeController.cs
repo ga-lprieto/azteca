@@ -16,7 +16,18 @@ namespace Azteca.Controllers
             return View();
         }
 
-        public ActionResult AboutGA() {
+        public ActionResult AboutGA()
+        {
+            return View();
+        }
+
+        public ActionResult DondeEstamos()
+        {
+            return View();
+        }
+
+        public ActionResult GAPolicies()
+        {
             return View();
         }
     }
