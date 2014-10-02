@@ -21,7 +21,7 @@ namespace Azteca.Controllers
             return View();
         }
 
-        public ActionResult DondeEstamos()
+        public ActionResult Locations()
         {
             return View();
         }

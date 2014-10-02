@@ -25,7 +25,7 @@
             asdasdasd
         </div>
         <div class="span7">
-            @using (var f = Html.Bootstrap().Begin(new Form("Form", "Carga").Class("form-horizontal")))
+            @using (var f = Html.Bootstrap().Begin(new Form("Form", "Upload").Class("form-horizontal")))
             {
                 @(f.ControlGroup().TextBoxFor(m => m.cv_name)
                 .Placeholder("ex: Juan")
@@ -42,6 +42,24 @@
                 )
                 @(f.ControlGroup().DropDownListFor(m => m.cv_country, (SelectList)ViewBag.countryList)
                 )
+                @(f.ControlGroup().TextBoxFor(m => m.cv_city)
+                .Placeholder("ex: Olivos")
+                .Class("autocompl")
+                )
+                @f.ControlGroup().DropDownListFor(m => m.cv_degree, (SelectList) ViewBag.carrerList)
+                
+                @f.ControlGroup().DropDownListFor(m => m.cv_english, (SelectList)ViewBag.englishList)
+                
+                @f.ControlGroup().DropDownListFor(m => m.cv_howto, (SelectList)ViewBag.howtoList)
+                
+                @f.ControlGroup().DropDownListFor(m => m.cv_availability, (SelectList)ViewBag.availabilityList)
+                
+                @(f.ControlGroup().RadioButtonFor(m => m.cv_travel_disp, "No").Label().IsChecked(true)
+                )
+                @(f.ControlGroup().RadioButtonFor(m => m.cv_travel_disp, "Si").Label()
+                )
+
+
                 
 
                 @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton().Class("btn-success"))
