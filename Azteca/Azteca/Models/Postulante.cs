@@ -59,10 +59,6 @@ namespace Azteca.Models
         [DisplayName("Disponibilidad para Viajar")]
         public string cv_travel_disp { get; set; }
 
-        [Required]
-        [DisplayName("Areas")]
-        public string[] cv_jobareas { get; set; }
-
         [DisplayName("Otra Informacion")]
         public string cv_otherinfo { get; set; }
 
@@ -73,5 +69,6 @@ namespace Azteca.Models
         [Required]
         [DisplayName("Curriculum Vitae")]
         public HttpPostedFileBase cv_file { get; set; }
+
     }
 }

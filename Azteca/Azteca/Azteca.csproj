@@ -113,7 +113,7 @@
       <HintPath>..\packages\T4MVCExtensions.3.6.5\lib\net40\T4MVCExtensions.dll</HintPath>
     </Reference>
     <Reference Include="TwitterBootstrapMVC4">
-      <HintPath>..\packages\TwitterBootstrapMVC.3.13.10\lib\net40\TwitterBootstrapMVC4.dll</HintPath>
+      <HintPath>..\packages\TwitterBootstrapMVC.3.13.9\lib\net40\TwitterBootstrapMVC4.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +143,17 @@
     <Content Include="Content\Images\Flags\Brazil.png" />
     <Content Include="Content\Images\Flags\ga.jpg" />
     <Content Include="Content\Images\Flags\Usa.png" />
+    <Content Include="Content\Images\Miscelaneous\AboutGA.jpg" />
+    <Content Include="Content\Images\Miscelaneous\Amcor.jpg" />
+    <Content Include="Content\Images\Miscelaneous\AstraZeneca.png" />
+    <Content Include="Content\Images\Miscelaneous\eCommerce.png" />
+    <Content Include="Content\Images\Miscelaneous\logo.png" />
+    <Content Include="Content\Images\Miscelaneous\Marisa.jpg" />
+    <Content Include="Content\Images\Miscelaneous\OfficeMax.jpg" />
+    <Content Include="Content\Images\Miscelaneous\Promon.jpg" />
+    <Content Include="Content\Images\Miscelaneous\TelhaNorte.jpg" />
+    <Content Include="Content\Images\Miscelaneous\WalMart.jpg" />
+    <Content Include="Content\Images\Miscelaneous\Weatherford.jpg" />
     <Content Include="Content\Theme\main.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\TwitterBootstrapMvcJs.js" />

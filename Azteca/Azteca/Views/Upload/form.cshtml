@@ -1,4 +1,5 @@
-﻿@model  Azteca.Models.Postulante
+﻿@using Azteca.Models
+@model  Azteca.Models.Postulante
 
 @{
     ViewBag.Title = "Form";
@@ -21,11 +22,18 @@
 
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span3 visible-desktop">
-            asdasdasd
+        <div class="span3 hidden-phone">
+            <h2>Ingresá tu CV</h2>
+            <hr />
+            <img src="http://grupoassa.com/wp-content/uploads/2012/04/Foto1020-960x319.jpg" /><br /><br />
+            <p>Grupo ASSA, es una empresa en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia. Ahora podes formar parte de nuestro equipo y crecer profesionalmente.</p>
         </div>
         <div class="span7">
-            @using (var f = Html.Bootstrap().Begin(new Form("Form", "Upload").Class("form-horizontal")))
+            <div class="visible-phone">
+                <h2>Ingresa Tu CV</h2>
+                <hr />
+            </div>
+            @using (var f = Html.Bootstrap().Begin(new Form("Form", "Upload").Type(FormType.Horizontal).HtmlAttributes(new { @enctype = "multipart/form-data" })))
             {
                 @(f.ControlGroup().TextBoxFor(m => m.cv_name)
                     .Size(InputSize.BlockLevel)
@@ -46,32 +54,42 @@
                 )
                 @(f.ControlGroup().DropDownListFor(m => m.cv_country, (SelectList)ViewBag.countryList)
                     .Size(InputSize.BlockLevel)
+                        .OptionLabel("--- Seleccionar ---") 
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_city)
                     .Placeholder("ex: Olivos")
                     .Class("autocompl")
                     .Size(InputSize.BlockLevel)
                 )
+                <hr />
                 @(f.ControlGroup().DropDownListFor(m => m.cv_degree, (SelectList) ViewBag.carrerList)
-                   .Size(InputSize.BlockLevel)                
+                   .Size(InputSize.BlockLevel)   
+                   .OptionLabel("--- Seleccionar ---")             
                 )
                 @(f.ControlGroup().DropDownListFor(m => m.cv_english, (SelectList)ViewBag.englishList)
                     .Size(InputSize.BlockLevel)
+                        .OptionLabel("--- Seleccionar ---") 
                 )
                 
                 @(f.ControlGroup().DropDownListFor(m => m.cv_howto, (SelectList)ViewBag.howtoList)
                     .Size(InputSize.BlockLevel)
+                        .OptionLabel("--- Seleccionar ---") 
                 )
                 @(f.ControlGroup().DropDownListFor(m => m.cv_availability, (SelectList)ViewBag.availabilityList)
                     .Size(InputSize.BlockLevel)
+                        .OptionLabel("--- Seleccionar ---") 
                 )
-                @(f.ControlGroup().RadioButtonTrueFalseFor( m => m.cv_travel_disp)
+                @(f.ControlGroup().RadioButtonTrueFalseFor(m => m.cv_travel_disp)
                     .InputLabelsText("Si", "No")
+                        .HtmlAttributesInputFalse( new { @checked = "checked" })                  
                 )
-                
+                <hr />
+                @f.ControlGroup().TextAreaFor(m => m.cv_otherinfo)
+                @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder("Cantidad en ARS").Prepend("$").Append(".00")
+                @f.ControlGroup().FileFor(m => m.cv_file)
 
 
-                
+
 
                 @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton().Class("btn-success"))
             }
@@ -80,12 +98,12 @@
 </div>
 
 <script>
+    $(document).ready(function () { 
+        $(".hasDatepicker").datepicker();
+            $.datepicker.setDefaults({
+                dateFormat: 'dd/mm/yy'
+            });
 
-    $(".hasDatepicker").datepicker();
-    $.datepicker.setDefaults({
-        dateFormat: 'dd/mm/yy'
     });
-
-
 
 </script>
