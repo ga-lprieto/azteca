@@ -17,7 +17,8 @@ namespace Azteca.Helpers
         MailMessage Message;
         SmtpClient ClienteSmtp;
         Attachment At;
-        string User, Password;
+        string User { get; set; }
+        string Password { get; set; }
 
         //Metodo Validar Mail
         public bool validarEmail(string Email)

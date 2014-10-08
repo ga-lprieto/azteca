@@ -31,7 +31,7 @@ namespace Azteca.Models
         public DateTime cv_dateofbirth { get; set; }
 
         [Required]
-        [DisplayName("Pais")]
+        [DisplayName("País")]
         public string cv_country { get; set; }
 
         [Required]
@@ -45,7 +45,7 @@ namespace Azteca.Models
         public string cv_other { get; set; }
 
         [Required]
-        [DisplayName("Nivel de Ingles")]
+        [DisplayName("Nivel de Inglés")]
         public string cv_english { get; set; }
 
         [DisplayName("Como nos Encontraste")]
@@ -59,7 +59,7 @@ namespace Azteca.Models
         [DisplayName("Disponibilidad para Viajar")]
         public string cv_travel_disp { get; set; }
 
-        [DisplayName("Otra Informacion")]
+        [DisplayName("Otra Información")]
         public string cv_otherinfo { get; set; }
 
         [Required]

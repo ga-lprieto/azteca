@@ -30,22 +30,22 @@
         </div>
         <div class="span7">
             <div class="visible-phone">
-                <h2>Ingresa Tu CV</h2>
+                <h2>Ingresá Tu CV</h2>
                 <hr />
             </div>
             @using (var f = Html.Bootstrap().Begin(new Form("Form", "Upload").Type(FormType.Horizontal).HtmlAttributes(new { @enctype = "multipart/form-data" })))
             {
                 @(f.ControlGroup().TextBoxFor(m => m.cv_name)
                     .Size(InputSize.BlockLevel)
-                    .Placeholder("ex: Juan")
+                    .Placeholder("ej: Juan")
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_lastname)
                         .Size(InputSize.BlockLevel)
-                    .Placeholder("ex: Perez")
+                    .Placeholder("ej: Pérez")
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_email)
                     .Size(InputSize.BlockLevel)
-                    .Placeholder("ex: prueba@ejemplo.com")
+                    .Placeholder("ej: prueba@ejemplo.com")
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_dateofbirth)
                     .Size(InputSize.BlockLevel)
@@ -57,7 +57,7 @@
                         .OptionLabel("--- Seleccionar ---") 
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_city)
-                    .Placeholder("ex: Olivos")
+                    .Placeholder("ej: Olivos")
                     .Class("autocompl")
                     .Size(InputSize.BlockLevel)
                 )
@@ -83,6 +83,63 @@
                     .InputLabelsText("Si", "No")
                         .HtmlAttributesInputFalse( new { @checked = "checked" })                  
                 )
+            <div class="control-group">
+                <label class="control-label" for="inputEmail">Áreas de Trabajo</label>
+                <div class="controls">
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Jovenes Profesionales
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Consultoría SAP
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Consultoría Oracle
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Seguridad IT
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Consultoría en Procesos
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Programación
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Administración de Servidores
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        RRHH
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Administración
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Marketing
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Legales
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Secretarias / Recepcionistas
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Finanzas
+                    </label>
+                </div>
+            </div>
                 <hr />
                 @f.ControlGroup().TextAreaFor(m => m.cv_otherinfo)
                 @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder("Cantidad en ARS").Prepend("$").Append(".00")
