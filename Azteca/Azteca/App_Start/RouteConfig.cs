@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Azteca.Helpers;
 
 namespace Azteca
 {
@@ -15,8 +16,8 @@ namespace Azteca
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                url: "{culture}/{controller}/{action}/{id}",
+                defaults: new { culture = CultureHelper.getCurrentNeutralCountry(), controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

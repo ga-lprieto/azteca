@@ -11,19 +11,16 @@ namespace Azteca.Models
     {
         [Required]
         [DisplayName("Nombre")]
-        [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string cv_name { get; set; }
 
         [Required]
         [DisplayName("Apellido")]
-        [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string cv_lastname { get; set; }
 
         [Required]
         [DisplayName("E-Mail")]
         [DataType(DataType.EmailAddress)]
         [EmailAddress(ErrorMessage = "It's not a valid E-mail")]
-        [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string cv_email { get; set; }
 
         [Required(ErrorMessage = "Birth date cannot be empty")]
@@ -59,6 +56,10 @@ namespace Azteca.Models
         [DisplayName("Disponibilidad para Viajar")]
         public string cv_travel_disp { get; set; }
 
+        [DisplayName("Áreas de Trabajo")]
+        public string[] cv_job_area { get; set; }
+
+
         [DisplayName("Otra Información")]
         public string cv_otherinfo { get; set; }
 
@@ -67,6 +68,7 @@ namespace Azteca.Models
         public string cv_salary { get; set; }
 
         [Required]
+        [DataType(DataType.Upload)]
         [DisplayName("Curriculum Vitae")]
         public HttpPostedFileBase cv_file { get; set; }
 
