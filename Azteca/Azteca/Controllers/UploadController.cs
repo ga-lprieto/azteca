@@ -49,33 +49,7 @@ namespace Azteca.Controllers
         {
             if (ModelState.IsValid)
             {
-                string body = string.Empty;
-                using (StreamReader reader = new StreamReader(Server.MapPath("~/Templates/emailTemplate.html")))
-                {
-                    body = reader.ReadToEnd();
-                }
-                body = body.Replace("{cv_name}", model.cv_name);
-                body = body.Replace("{cv_lastname}", model.cv_lastname);
-                body = body.Replace("{cv_dateofbirth}", model.cv_dateofbirth.Day + "/" + model.cv_dateofbirth.Month + "/" + model.cv_dateofbirth.Year);
-                body = body.Replace("{cv_email}", model.cv_email);
-                body = body.Replace("{cv_country}", model.cv_country);
-                body = body.Replace("{cv_city}", model.cv_city);
-                body = body.Replace("{cv_degree}", model.cv_degree);
-                body = body.Replace("{cv_english}", model.cv_english);
-                body = body.Replace("{cv_howto}", model.cv_howto);
-                body = body.Replace("{cv_availability}", model.cv_availability);
-                string travel_disp;
-                if (bool.Parse(model.cv_travel_disp))
-                {
-                    travel_disp = "Si";
-                }
-                else
-                {
-                    travel_disp = "No";
-                }
-                body = body.Replace("{cv_travel_disp}", travel_disp);
-                body = body.Replace("{cv_otherinfo}", model.cv_otherinfo);
-                body = body.Replace("{cv_salary}", model.cv_salary);
+                
 
                 MailHelper.SendMail("lprieto@grupoassa.com", body, "Test Mail", model.cv_file);
 

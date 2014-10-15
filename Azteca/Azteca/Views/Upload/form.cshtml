@@ -9,8 +9,7 @@
     ViewBag.ICOHome = "";
     ViewBag.ICOCV = "active";
     ViewBag.ICOHacemos = "" ;
-
-    ViewBag.asd = CultureHelper.getCurrentNeutralCountry();
+    
 }
 <style>
     .required {
@@ -87,12 +86,19 @@
                         .HtmlAttributesInputFalse( new { @checked = "checked" })                  
                 )
 
-                @(f.ControlGroup().CheckBoxListFor(
-                    m => m.cv_job_area,
-                    (List<JobArea>)ViewBag.jobAreas,
-                    jobarea => jobarea.id,
-                    jobarea => jobarea.name)
-                )
+                <div class="control-group">
+                    <label class="control-label" for="inputEmail">Áreas de Trabajo</label>
+                    <div class="controls">
+                        @foreach (JobArea j in (List<JobArea>)ViewBag.jobAreas)
+                        {
+                            <label class="checkbox">
+                                <input name="cv_job_area" type="checkbox" value="@j.name">
+                                @j.name
+                            </label>
+                        }
+
+                    </div>
+                </div>
                 <hr />
                 @f.ControlGroup().TextAreaFor(m => m.cv_otherinfo)
                 @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder("Cantidad en ARS").Prepend("$").Append(".00")
