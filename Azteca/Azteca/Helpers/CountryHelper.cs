@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Web;
+using System.Web.Configuration;
 
 namespace Azteca.Helpers
 {
@@ -12,6 +13,10 @@ namespace Azteca.Helpers
 
         public static string getLangForCountry(string country)
         {
+            if (country.Equals("Otro / Todos"))
+            {
+                return "en";
+            }
             string countryCode = getCountryCode(country);
             string Lang = string.Empty;
             foreach (string s in ImplementedCountries)
@@ -28,8 +33,30 @@ namespace Azteca.Helpers
         public static string getCountryCode(string country)
         {
             var regions = CultureInfo.GetCultures(CultureTypes.SpecificCultures).Select(x => new RegionInfo(x.LCID));
-            var countryRegion = regions.FirstOrDefault(region => region.EnglishName.Contains(country));
+            var countryRegion = regions.FirstOrDefault(region => region.NativeName.Contains(country));
             return countryRegion.Name;
         }
+
+        public static IEnumerable<string> getAddress(string country)
+        {
+            List<string> l ;
+
+            if ( ! country.Equals("Otro / Todos"))
+            {
+                string countryCode = getCountryCode(country);
+                string add = WebConfigurationManager.AppSettings["HC_"+countryCode];
+                l = new List<string>();
+                l.Add(add);
+
+            }
+            else 
+            {
+                string add = WebConfigurationManager.AppSettings["HC_ALL"];
+                l = new List<string>(add.Split(';'));
+            }
+
+            return l;
+        }
+
     }
 }

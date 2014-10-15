@@ -49,16 +49,33 @@ namespace Azteca.Controllers
         [HttpPost]
         public ActionResult Form(Postulante model)
         {
+            //MODEL IS VALID
             if (ModelState.IsValid)
             {
+                string subject = string.Empty;
+                if (model.cv_job_area != null)
+                {
+                    subject = model.cv_job_area[0]+" - ";
+                    subject += model.cv_salary;
+                    subject += (model.cv_applyto.Equals("Otro / Todos")) ? " (MULTIPLE)" : "";
+                } 
+                    else
+	            {
+                    subject = "No Job Area - ";
+                    subject += model.cv_salary;
+                    subject += (model.cv_applyto.Equals("Otro / Todos")) ? " (MULTIPLE)" : "";
+	            }
 
                 string body = ParseBody(model);
 
-                MailHelper.SendMail("lprieto@grupoassa.com", body, "Test Mail", model.cv_file);
+                MailHelper.SendMail("gveloso@grupoassa.com", body, subject, model.cv_file);
 
-                return this.RedirectToAction("Submit");
+                return this.RedirectToAction("Submit","Upload",model.cv_name);
 
             }
+
+            //INVALID MODEL
+            //REFILL INFO AND POST BACK
 
             List<JobArea> l = new List<JobArea>();
             l.Add(new JobArea { name = "Jovenes Profesionales" , id = "1"});
@@ -94,6 +111,8 @@ namespace Azteca.Controllers
 
         
         public ActionResult Submit(string cv_name) {
+            
+            ViewBag.cv_name = cv_name;
 
             return View();
         }

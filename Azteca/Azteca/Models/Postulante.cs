@@ -28,11 +28,11 @@ namespace Azteca.Models
         public DateTime cv_dateofbirth { get; set; }
 
         [Required]
-        [DisplayName("País")]
+        [DisplayName("País de Residencia")]
         public string cv_country { get; set; }
 
         [Required]
-        [DisplayName("Ciudad")]
+        [DisplayName("Ciudad de Residencia")]
         public string cv_city { get; set; }
 
         [Required]
@@ -72,6 +72,7 @@ namespace Azteca.Models
         [DisplayName("Curriculum Vitae")]
         public HttpPostedFileBase cv_file { get; set; }
 
+        [Required]
         [DisplayName("Postularse a")]
         public string cv_applyto { get; set; }
 
