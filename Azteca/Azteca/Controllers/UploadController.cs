@@ -35,6 +35,8 @@ namespace Azteca.Controllers
             string[] english = { "Basic", "Intermediate", "Advanced" };
             string[] carrers = { "Ingenieria", "Administracion", "Otra" };
             string[] countries = { "Argentina", "Brasil", "Mexico" };
+            string[] applyto = { "Argentina", "Brasil", "Mexico", "Chile", "Colombia", "Otro / Todos" };
+            ViewBag.applyTo = new SelectList(applyto);
             ViewBag.countryList = new SelectList(countries);
             ViewBag.carrerList = new SelectList(carrers);
             ViewBag.englishList = new SelectList(english);
@@ -49,7 +51,8 @@ namespace Azteca.Controllers
         {
             if (ModelState.IsValid)
             {
-                
+
+                string body = ParseBody(model);
 
                 MailHelper.SendMail("lprieto@grupoassa.com", body, "Test Mail", model.cv_file);
 
@@ -78,6 +81,8 @@ namespace Azteca.Controllers
             string[] english = { "Basic", "Intermediate", "Advanced" };
             string[] carrers = { "Ingenieria", "Administracion", "Otra" };
             string[] countries = { "Argentina", "Brasil", "Mexico" };
+            string[] applyto = { "Argentina", "Brasil", "Mexico", "Chile", "Colombia", "Otro / Todos" };
+            ViewBag.applyTo = new SelectList(applyto);
             ViewBag.countryList = new SelectList(countries);
             ViewBag.carrerList = new SelectList(carrers);
             ViewBag.englishList = new SelectList(english);
@@ -93,5 +98,59 @@ namespace Azteca.Controllers
             return View();
         }
 
+        public string ParseBody(Postulante model)
+        {
+            string body = string.Empty;
+            using (StreamReader reader = new StreamReader(Server.MapPath("~/Templates/emailTemplate_" + CountryHelper.getLangForCountry(model.cv_applyto) + ".html")))
+            {
+                body = reader.ReadToEnd();
+            }
+            body = body.Replace("{cv_name}", model.cv_name);
+            body = body.Replace("{cv_lastname}", model.cv_lastname);
+            body = body.Replace("{cv_dateofbirth}", model.cv_dateofbirth.Day + "/" + model.cv_dateofbirth.Month + "/" + model.cv_dateofbirth.Year);
+            body = body.Replace("{cv_email}", model.cv_email);
+            body = body.Replace("{cv_country}", model.cv_country);
+            body = body.Replace("{cv_city}", model.cv_city);
+            body = body.Replace("{cv_degree}", model.cv_degree);
+            body = body.Replace("{cv_english}", model.cv_english);
+            body = body.Replace("{cv_howto}", model.cv_howto);
+            body = body.Replace("{cv_availability}", model.cv_availability);
+
+            if (model.cv_job_area != null)
+            {
+                string fillUp = "";
+
+                fillUp += "<ol>";
+
+                for (int i = 0; i < model.cv_job_area.Length; i++)
+                {
+                    fillUp += "<li>" + model.cv_job_area[i] + "</li>";
+                }
+
+                fillUp += "</ol>";
+
+                body = body.Replace("{cv_job_area}", fillUp);
+
+            }
+            else
+            {
+                body = body.Replace("{cv_job_area}", "");
+            }
+
+            string travel_disp;
+            if (bool.Parse(model.cv_travel_disp))
+            {
+                travel_disp = "Si";
+            }
+            else
+            {
+                travel_disp = "No";
+            }
+            body = body.Replace("{cv_travel_disp}", travel_disp);
+            body = body.Replace("{cv_otherinfo}", model.cv_otherinfo);
+            body = body.Replace("{cv_salary}", model.cv_salary);
+
+            return body;
+        }
     }
 }

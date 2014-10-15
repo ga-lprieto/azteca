@@ -161,7 +161,7 @@
     <Content Include="Content\Theme\main.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\TwitterBootstrapMvcJs.js" />
-    <Content Include="Templates\emailTemplate.html" />
+    <Content Include="Templates\emailTemplate_es.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

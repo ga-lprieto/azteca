@@ -100,6 +100,7 @@
                     </div>
                 </div>
                 <hr />
+                @f.ControlGroup().DropDownListFor(m => m.cv_applyto, (SelectList)ViewBag.applyTo).OptionLabel("--- Seleccionar ---")
                 @f.ControlGroup().TextAreaFor(m => m.cv_otherinfo)
                 @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder("Cantidad en ARS").Prepend("$").Append(".00")
                 @f.ControlGroup().FileFor(m => m.cv_file)

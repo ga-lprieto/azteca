@@ -8,6 +8,7 @@ using System.Web;
 namespace Azteca.Helpers
 {
 
+
     public class MailHelper
     {
         public static void SendMail(string to, string body, string subject) {
@@ -50,8 +51,5 @@ namespace Azteca.Helpers
             }
         }
 
-        public static string ParseBody(string country) { 
-        
-        }
     }
 }

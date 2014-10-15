@@ -72,5 +72,8 @@ namespace Azteca.Models
         [DisplayName("Curriculum Vitae")]
         public HttpPostedFileBase cv_file { get; set; }
 
+        [DisplayName("Postularse a")]
+        public string cv_applyto { get; set; }
+
     }
 }
