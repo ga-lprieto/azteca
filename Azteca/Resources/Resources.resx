@@ -117,7 +117,273 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutGA_p1" xml:space="preserve">
+    <value>We offer the possibility to work alongside each client to undergo a business process tranformation through a high quality consulting service.</value>
+  </data>
+  <data name="AboutGA_p2" xml:space="preserve">
+    <value>We count with over 1200 professional resources who work alongside eachother by ringing into the game their pasion, ideas and talent in different multicultural teams and projects all across the world.</value>
+  </data>
+  <data name="AboutGA_p3" xml:space="preserve">
+    <value>We count with different estrategically located business offices in Argentina, Brazil, Chile, USA and Mexico from which we work alongside high profile clients such as Petrobras, Shell, LAN, Arcor, Electrolux, Claro in improving both their SAP and Oracle plataforms.</value>
+  </data>
+  <data name="AboutGA_Tab01" xml:space="preserve">
+    <value>Let us tell you about gA</value>
+  </data>
+  <data name="AboutGA_Tab02" xml:space="preserve">
+    <value>Our history.</value>
+  </data>
+  <data name="AboutGA_WhatDoWeDo" xml:space="preserve">
+    <value>What do we do?</value>
+  </data>
+  <data name="GAPolicies_Aceptance_Header" xml:space="preserve">
+    <value>8. Aceptación de estas Normas.</value>
+  </data>
+  <data name="GAPolicies_Aceptance_p1" xml:space="preserve">
+    <value>Estas Normas constituyen compromiso legal contraído por el Visitante y Grupo ASSA. Si el Visitante visita las páginas web de Grupo ASSA, significa que ha leído, entendido y acordado los términos antes expuestos</value>
+  </data>
+  <data name="GAPolicies_Aceptance_p2" xml:space="preserve">
+    <value>Registro Nacional de Base de Datos</value>
+  </data>
+  <data name="GAPolicies_Aceptance_p3" xml:space="preserve">
+    <value>Información para Visitantes</value>
+  </data>
+  <data name="GAPolicies_Aceptance_p4" xml:space="preserve">
+    <value>Grupo ASSA S.A. ha cumplimentado los requisitos que exige la Ley Nº 25.326 de Protección de Datos Personales difundida por la Dirección Nacional de Protección de Datos Personales, asumiendo el carácter de Responsable Registrado.</value>
+  </data>
+  <data name="GAPolicies_Aceptance_p5" xml:space="preserve">
+    <value>El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley Nº 25.326.</value>
+  </data>
+  <data name="GAPolicies_Aceptance_p6" xml:space="preserve">
+    <value>La DIRECCION NACIONAL DE PROTECCION DE DATOS PERSONALES, Organo de Control de la Ley Nº 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales.</value>
+  </data>
+  <data name="GAPolicies_Content_Header" xml:space="preserve">
+    <value>5. Content.</value>
+  </data>
+  <data name="GAPolicies_Content_p1" xml:space="preserve">
+    <value>Propios: Grupo ASSA ofrece sus Contenidos como un servicio para sus Visitantes, los que deberían usarlos con carácter informativo y/o educativo. Grupo ASSA no tiene responsabilidad en los errores u omisiones de estos materiales. Tampoco garantiza, explícita o implícitamente, que los Contenidos publicados en sus páginas de web, la exactitud o confiabilidad de los textos, gráficos, enlaces y otros elementos accesibles y alocados en su servidor de Internet.</value>
+  </data>
+  <data name="GAPolicies_Content_p2" xml:space="preserve">
+    <value>De terceros: Grupo ASSA advierte que al no ser de su titularidad toda la información contenida en las páginas de web, algunos de los textos, gráficos, vínculos y/o el contenido de algunos artículos incluidos en el mismo podrían no ser veraces o no estar actualizados; asimismo tampoco garantiza el cumplimiento de las normativas vigentes en relación con dichos Contenidos propiedad de terceros. Grupo ASSA no será responsable por el cumplimiento de la legislación vigente en materia de propiedad intelectual o veracidad y exactitud de los Contenidos ofrecidos por terceros en sus páginas de web o que de algún modo estén vinculados a estas. Las publicaciones de terceras partes no representan la opinión, creencia o intención de Grupo ASSA.</value>
+  </data>
+  <data name="GAPolicies_Content_p3" xml:space="preserve">
+    <value>Grupo ASSA o terceras personas podrán proveer enlaces a otros sitios o recursos en la web, en los cuales no tiene control, por lo que el Visitante acepta y conviene que Grupo ASSA no será responsable por la disponibilidad de dichos sitios y recursos externos, y no los respalda ni es responsable o tiene obligación legal por su Contenido, comercialización, productos u otros materiales en los sitios o recursos disponibles desde dichos sitios o recursos. Además el Visitante acepta y acuerda que Grupo ASSA no será responsable ni estará obligado, directa o indirectamente, por ningún sitio o recurso.</value>
+  </data>
+  <data name="GAPolicies_Copyright_Header" xml:space="preserve">
+    <value>3. Copyright.</value>
+  </data>
+  <data name="GAPolicies_Copyright_p1" xml:space="preserve">
+    <value>Todos los contenidos de estas páginas de web, comprendiendo, sin carácter limitativo, los textos (incluyendo los comentarios, disertaciones, exposiciones y reproducciones), gráficos, logos, iconos, imágenes, archivos de audio y video, y software (los "Contenidos") son propiedad exclusiva de Grupo ASSA y/o de sus proveedores de Contenidos, y los mismos están protegidos por las leyes de propiedad intelectual. Las mejoras y/o modificaciones de los Contenidos de estas páginas de web son propiedad exclusiva de Grupo ASSA. Todo el software utilizado en estas páginas de web es propiedad de Grupo ASSA y/o de sus proveedores de software. Los Contenidos y el software de Grupo ASSA pueden ser utilizados como una fuente de información. Cualquier otro uso, incluyendo la reproducción, modificación, distribución y/o transmisión, ya sea total o parcial, de los Contenidos de Grupo ASSA está estrictamente prohibida, si no cuenta su difusor con la expresa autorización de Grupo ASSA. Los permisos para usar el Contenido de Grupo ASSA se otorgan en forma expresa caso por caso. Por favor, dirija sus pedidos a: marketing@grupoassa.com . En cualquier caso, (a) el uso autorizado de los Contenidos (ya sea mediante su reproducción total o parcial, o de cualquier otro modo, mediante la utilización de medios o procesos conocidos o no al día de la fecha) se encuentra sujeto a la obligación inexcusable de citar en forma expresa la fuente, aclarando la fecha de publicación y los datos concernientes a su autor; (b) Grupo ASSA manifiesta que no asume responsabilidad alguna por la reproducción total o parcial de los Contenidos sin su expresa autorización, y (c)Grupo ASSA no será responsable ni civil ni penalmente por los daños y perjuicios que pudiere ocasionar el uso indebido o incorrecto de los Contenidos. Grupo ASSA tiene un especial interés en proteger la propiedad intelectual propia y de terceros, por ello; si por cualquier circunstancia, se tomara conocimiento de que cualquiera de los Contenidos es o ha sido reproducido, total o parcialmente, en violación de los derechos de propiedad intelectual y de lo dispuesto en los presentes Términos y Condiciones, solicitamos comunicarse con Grupo ASSA, a la dirección arriba indicada para la solicitud de autorizaciones.</value>
+  </data>
+  <data name="GAPolicies_GrupoASSA" xml:space="preserve">
+    <value>Grupo ASSA.</value>
+  </data>
+  <data name="GAPolicies_Header" xml:space="preserve">
+    <value>Privacy Policies.</value>
+  </data>
+  <data name="GAPolicies_Jurisdiction_Header" xml:space="preserve">
+    <value>7. Jurisdiction.</value>
+  </data>
+  <data name="GAPolicies_Jusridiction_p1" xml:space="preserve">
+    <value>Todos aquellos Visitantes que ingresen a el Sitio aceptan someterse a la legislación de la República Argentina y a la jurisdicción de los tribunales ordinarios de la Ciudad Autónoma de Buenos Aires.</value>
+  </data>
+  <data name="GAPolicies_Legal" xml:space="preserve">
+    <value>1. Legal Framework.</value>
+  </data>
+  <data name="GAPolicies_Legal_p1" xml:space="preserve">
+    <value>Grupo ASSA informa que el sitio web www.grupoassa.com (en adelante el Sitio) tiene por objeto facilitar al público en general, el conocimiento de las actividades que realiza y de los servicios que presta. El acceso a el Sitio atribuye la condición de visitante del mismo (en adelante Visitante) e implica la plena aceptación y sin reservas de todos los términos y condiciones que se detallan a continuación según se encuentren vigentes en el momento en que el Visitante acceda a el Sitio. Grupo ASSA se reserva la facultad de efectuar, en cualquier momento y sin aviso previo, modificaciones respecto a la información contenida en el Sitio o en la configuración y presentación de los Términos y Condiciones de Uso. Según se usa en este Acuerdo de Usuario, "Grupo ASSA" significa (1) Grupo ASSA S.A., (2) las entidades controladas por, o sobre las cuales tiene control común o que controlan a Grupo ASSA S.A., (3) cualesquiera de las afiliadas o vinculadas de las entidades definidas en el inciso (2) que estén autorizadas a usar el nombre o la marca "Grupo ASSA", y (4) cualquier entidad que sea afiliada o vinculadas de Grupo ASSA según Grupo ASSA defina en cualquier momento.</value>
+  </data>
+  <data name="GAPolicies_Marcas_Header" xml:space="preserve">
+    <value>4. Marcas.</value>
+  </data>
+  <data name="GAPolicies_Marcas_p1" xml:space="preserve">
+    <value>"Grupo ASSA", "grupoassa.com", "grupossa.com/brasil", "grupoassa.com/mexico", "grupoassa.com/usa", "ASSA Express", "ASSA News", Application News", "ASSA Pyme", "e-solutions", "Grupo ASSA.com.ar", ?grupoassa.com/español?, ?grupoassa.com/portugués?, ?grupoassa.com/ingles? y ?Grupo ASSA Upd@te" son marcas de Grupo ASSA registradas en la Argentina y en otras jurisdicciones. Los gráficos, logos y nombres que identifican los Contenidos también son marcas registradas de Grupo ASSA. Estas marcas registradas no pueden ser usadas en conexión con productos o servicios que no pertenezcan a Grupo ASSA, en cualquier forma que pueda causar confusión entre los Visitantes y/o que desacredite a Grupo ASSA. Las páginas de web de Grupo ASSA (o cualquier porción de estas páginas de web) no pueden ser reproducidas, duplicadas, copiadas, vendidas, revendidas o explotadas con otros fines distintos de aquellos expresamente permitidos por Grupo ASSA. Tanto el acceso a las páginas de web de Grupo ASSA, así como el uso que pueda hacerse de la información contenida en las mismas, son exclusiva responsabilidad de quien la utiliza. Queda prohibido cualquier uso o explotación por cualquier medio, sin el consentimiento previo y por escrito de Grupo ASSA, de cualquier contenido incluido en el Sitio. El diseño y Contenidos de el Sitio se encuentra protegido de conformidad con lo establecido por la ley 11.723 de propiedad intelectual y por la ley 22.362, quedando prohibido: modificar, copiar, distribuir, transferir, desplegar, publicar, editar, vender o de cualquier forma explotar el diseño y contenido de el Sitio.</value>
+  </data>
+  <data name="GAPolicies_Privacy_Header" xml:space="preserve">
+    <value>2. Normas de Confidencialidad / Privacidad.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p1" xml:space="preserve">
+    <value>Grupo ASSA adopta una política de confidencialidad por la que protege la privacidad de la información personal suministrada por los Visitantes a nuestras páginas de web. Las Normas de Confidencialidad que articulan esta política, son las que se detallan a continuación.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p2" xml:space="preserve">
+    <value>Tipo de información comprendida. Toda aquella información personal que el Visitante ingresa voluntariamente a nuestras páginas de web. Esta información es la que el Visitante suministra a Grupo ASSA cuando solicita su Grupo ASSA Upd@te (Newsletter de Grupo ASSA) ; su acceso a información referente a localizaciones de productos, su acceso a realizar download de información sobre Grupo ASSA, su posibilidad de postularse para búsquedas laborales o; en cualquier otra ocasión. En general, esta información comprende, nombre, apellido, nombre de la empresa, cargo, dirección, número de teléfono, correo electrónico, sexo, edad, fecha de nacimiento, nacionalidad y estado civil y cualquier otro dato requerido. El Visitante puede modificar o actualizar esta información en cualquier momento, aunque en todos los casos, la información provista será considerada como información confidencial.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p3" xml:space="preserve">
+    <value>El Visitante reconoce expresamente que al ingresar a este sitio otorga a Grupo ASSA su consentimiento libre, expreso e informado para utilizar todos sus datos personales cualquiera sea su naturaleza y/o especie bajo cualquier modalidad y/o fin, incluso cederlos a terceros en cualquier momento. Asimismo reconoce que tiene conocimiento acabado de: a) La finalidad o finalidades con que serán utilizados y quienes pueden ser los destinatarios de tales datos; b) La consecuencia de proporcionar los datos y la negativa de no hacerlo; c) Cualquier otro requisito prescripto por la legislación vigente.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p4" xml:space="preserve">
+    <value>Finalidad de uso de la Información. En todos los casos, la información suministrada por el Visitante será utilizada con la finalidad por la que fue provista, o con el fin adicional al que el Visitante autorice su uso. Todos aquellos datos obtenidos del Visitante en carácter de ?confidencial?, serán utilizados únicamente para proveer al mismo un servicio personalizado de acuerdo a lo requerido por el Visitante, pudiéndole ofrecer publicidad o material informativo de su interés, informarlo y/o convocarlo a búsquedas laborales, etc. , siempre y cuando el Visitante los haya requerido mediante indicación precisa.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p5" xml:space="preserve">
+    <value>Confidencialidad de la Información. Grupo ASSA no compartirá la información suministrada con ningún otro Visitante o con otros terceros, excepto en los casos en que cuente con expresa autorización de quienes la suministraron, o; de que sea requerida por orden judicial, legal o administrativo o; para proteger derechos de propiedad u otros derechos de Grupo ASSA. Grupo ASSA no vende ni alquila la información de los Visitantes.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p6" xml:space="preserve">
+    <value>Modificación / Actualización de la información personal. Los datos personales proporcionados por el Visitante formarán parte de un archivo que contendrá su perfil de interés. Grupo ASSA aconseja al Visitante que actualice sus datos cada vez que éstos sufran alguna modificación, ya que esto permitirá mantener un mejor contacto entre Grupo ASSA y el Visitante.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p7" xml:space="preserve">
+    <value>Protección de la Información Personal. Debido a que ninguna transmisión por Internet puede garantizar su seguridad al 100%, Grupo ASSA no puede garantizar que la información suministrada por el Visitante utilizando su servicio sea completamente segura, motivo por el que, el Visitante corre su propio riesgo, al suministrar su información utilizando su servicio. Para disminuir los riesgos Grupo ASSA recomienda al Visitante salir de su cuenta y cerrar la ventana de su navegador cuando finalice su actividad, más aún si comparte su computadora con alguien o utiliza una computadora con acceso a Internet en un lugar público.</value>
+  </data>
+  <data name="GAPolicies_Privacy_p8" xml:space="preserve">
+    <value>Aceptación de las Normas de Confidencialidad. Estas Normas de Confidencialidad constituyen un compromiso legal entre el Visitante y Grupo ASSA. Si el Visitante visita las páginas web de Grupo ASSA, significa que ha leído, entendido y acordado los términos antes expuestos. Si no está de acuerdo con ellos, el Visitante no deberá proporcionar ninguna información personal.</value>
+  </data>
+  <data name="GAPolicies_Responsability_Header" xml:space="preserve">
+    <value>6. Responsability.</value>
+  </data>
+  <data name="GAPolicies_Responsability_p1" xml:space="preserve">
+    <value>Grupo ASSA NO SE RESPONSABILIZA, BAJO NINGUNA CIRCUNSTANCIA, POR LA INTERPRETACIÓN Y/O POR LA INCORRECTA INTERPRETACIÓN, O POR EL USO INDEBIDO, DE LO EXPRESADO EN SUS PAGINAS DE WEB. Grupo ASSA TAMPOCO SERÁ RESPONSABLE POR LOS DAÑOS QUE SEAN CONSECUENCIA DIRECTA O INDIRECTA O REMOTA DE LA INTERRUPCIÓN, SUSPENSIÓN O FINALIZACIÓN DE LOS SERVICIOS O INFORMACIÓN SUMINISTRADA POR Grupo ASSA A TRAVÉS DE SUS PAGINAS DE WEB.</value>
+  </data>
+  <data name="GAPolicies_Terminos" xml:space="preserve">
+    <value>Therms and conditions:</value>
+  </data>
+  <data name="Index_Header_Button" xml:space="preserve">
+    <value>Send us your Curriculum Vitae</value>
+  </data>
+  <data name="Index_Header_Main" xml:space="preserve">
+    <value>Jobs gA</value>
+  </data>
+  <data name="Index_Header_p1" xml:space="preserve">
+    <value>You can be part of something BIG!</value>
+  </data>
+  <data name="Index_Heder_p2" xml:space="preserve">
+    <value>Join gA!</value>
+  </data>
+  <data name="Index_HowWeWork_Button" xml:space="preserve">
+    <value>Read More!</value>
+  </data>
+  <data name="Index_JoinGA_Header" xml:space="preserve">
+    <value>Send us your Curriculum Vitae</value>
+  </data>
+  <data name="Index_JoinGA_p1" xml:space="preserve">
+    <value>Grupo ASSA explora permanentemente el mercado laboral para incorporar nuevos talentos a equipos de profesionales y busca personas para trabajar en equipos multidisciplinarios que interactúan directamente con los clientes.</value>
+  </data>
+  <data name="Index_WhatWeDo_Button" xml:space="preserve">
+    <value>Read More!</value>
+  </data>
+  <data name="Index_WhatWeDo_Header" xml:space="preserve">
+    <value>What do we do?</value>
+  </data>
+  <data name="Index_WhatWeDo_p1" xml:space="preserve">
+    <value>Brindamos servicios de consultoría, donde vas a ayudar a clientes a transformar sus procesos de negocios a través de diferentes tecnologías.</value>
+  </data>
+  <data name="Index_WhatWeDo_p2" xml:space="preserve">
+    <value>Somos una empresa Latinoamericana en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia.</value>
+  </data>
+  <data name="Index_Whyto_Button" xml:space="preserve">
+    <value>Read More!</value>
+  </data>
+  <data name="Index_WhyTo_Header" xml:space="preserve">
+    <value>Why should I be part of gA?</value>
+  </data>
+  <data name="Index_WhyTo_p1" xml:space="preserve">
+    <value>Aca iria el contenido generado por HC ... mientras tanto lo lleno con palabras vacias, sin contenido intelectual y, como agregado, poco sentido.
+
+Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
+  </data>
+  <data name="Locations_Argentina_Direction" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="Locations_Argentina_Email" xml:space="preserve">
+    <value>Email contact:</value>
+  </data>
+  <data name="Locations_Argentina_Phone" xml:space="preserve">
+    <value>Phone contact:</value>
+  </data>
+  <data name="Locations_BRA_Direction" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="Locations_BRA_Email" xml:space="preserve">
+    <value>Email contact:</value>
+  </data>
+  <data name="Locations_BRA_Phone" xml:space="preserve">
+    <value>Phone contact:</value>
+  </data>
+  <data name="Locations_CHI_Direction" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="Locations_CHI_Email" xml:space="preserve">
+    <value>Email contact:</value>
+  </data>
+  <data name="Locations_CHI_Phone" xml:space="preserve">
+    <value>Phone contact:</value>
+  </data>
+  <data name="Locations_Header_Main" xml:space="preserve">
+    <value>Multinational gA</value>
+  </data>
+  <data name="Locations_Header_p1" xml:space="preserve">
+    <value>We count with several strategicly located business offices in different countries such as: Argentina, Brazil, Mexico, Chile, USA and Europe in which we offer several quality high quality services for many high profile clients.</value>
+  </data>
+  <data name="Locations_MEX_Direction" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="Locations_MEX_Email" xml:space="preserve">
+    <value>Email contact:</value>
+  </data>
+  <data name="Locations_MEX_Phone" xml:space="preserve">
+    <value>Phone contact:</value>
+  </data>
+  <data name="Locations_USA_Direction" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="Locations_USA_Email" xml:space="preserve">
+    <value>Email contact:</value>
+  </data>
+  <data name="Locations_USA_Name" xml:space="preserve">
+    <value>USA</value>
+  </data>
+  <data name="Locations_USA_Phone" xml:space="preserve">
+    <value>Phone contact:</value>
+  </data>
   <data name="TEST" xml:space="preserve">
     <value>Test String</value>
+  </data>
+  <data name="UploadForm_Area" xml:space="preserve">
+    <value>Expertise Area</value>
+  </data>
+  <data name="UploadForm_Availability" xml:space="preserve">
+    <value>Availability</value>
+  </data>
+  <data name="UploadForm_BirthDate" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="UploadForm_Carreer" xml:space="preserve">
+    <value>Carreer</value>
+  </data>
+  <data name="UploadForm_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="UploadForm_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="UploadForm_CV" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="UploadForm_EnglishLvl" xml:space="preserve">
+    <value>English expertise</value>
+  </data>
+  <data name="UploadForm_Header" xml:space="preserve">
+    <value>Send us your Curriculum Vitae</value>
+  </data>
+  <data name="UploadForm_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="UploadForm_Mail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="UploadForm_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="UploadForm_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="UploadForm_Policies" xml:space="preserve">
+    <value>Grupo ASSA, es una empresa en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia. Ahora podes formar parte de nuestro equipo y crecer profesionalmente.</value>
+  </data>
+  <data name="UploadForm_Reference" xml:space="preserve">
+    <value>How did you find us?</value>
+  </data>
+  <data name="UploadForm_Remuneration" xml:space="preserve">
+    <value>Remuneration</value>
+  </data>
+  <data name="UploadForm_TravelAvailability" xml:space="preserve">
+    <value>Availability to travel</value>
   </data>
 </root>
