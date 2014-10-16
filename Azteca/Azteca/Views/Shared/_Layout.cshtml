@@ -43,20 +43,20 @@
                     </a>
 
                     <!-- Be sure to leave the brand out there if you want it shown -->
-                    <a class="brand" href="#">Empleos</a>
+                    <a class="brand" href="@Url.Action("Index","Home")">@Resources.Layout_Header</a>
 
                     <!-- Everything you want hidden at 940px or less, place within here -->
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li class="@ViewBag.ICOHome"><a href="@Url.Action("Index","Home")"><i class="icon-home"></i></a></li>
-                            <li class="@ViewBag.ICOHacemos"><a href="@Url.Action("AboutGA","Home")">¿Qué Hacemos?</a></li>
-                            <li class="@ViewBag.ICOWhere"><a href="@Url.Action("Locations","Home")">Donde Estamos</a></li>
-                            <li class="@ViewBag.ICOCV"><a href="@Url.Action("Form","Upload")">Carga tu CV</a></li>
+                            <li class="@ViewBag.ICOHacemos"><a href="@Url.Action("AboutGA","Home")">@Resources.Layout_link_1</a></li>
+                            <li class="@ViewBag.ICOWhere"><a href="@Url.Action("Locations","Home")">@Resources.Layout_link_2</a></li>
+                            <li class="@ViewBag.ICOCV"><a href="@Url.Action("Form","Upload")">@Resources.Layout_link_3</a></li>
                         </ul>
                         
                         <ul class="nav pull-right">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cambiar Idioma: <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">@Resources.Layout_lang <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="@Url.Action("SetCulture", "Base", new { culture = "es" })">Español</a></li>
                                     <li><a href="@Url.Action("SetCulture", "Base", new { culture = "pt" })">Portugués</a></li>

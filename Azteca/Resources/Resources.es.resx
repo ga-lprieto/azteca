@@ -386,4 +386,19 @@ Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
   <data name="UploadForm_TravelAvailability" xml:space="preserve">
     <value>Disponibilidad para viajar</value>
   </data>
+  <data name="Layout_Header" xml:space="preserve">
+    <value>Empleos</value>
+  </data>
+  <data name="Layout_lang" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Layout_link_1" xml:space="preserve">
+    <value>Que hacemos</value>
+  </data>
+  <data name="Layout_link_2" xml:space="preserve">
+    <value>Donde estamos</value>
+  </data>
+  <data name="Layout_link_3" xml:space="preserve">
+    <value>Ingresá tu CV</value>
+  </data>
 </root>
