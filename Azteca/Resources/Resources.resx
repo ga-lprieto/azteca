@@ -253,7 +253,7 @@
     <value>Send us your Curriculum Vitae</value>
   </data>
   <data name="Index_JoinGA_p1" xml:space="preserve">
-    <value>Grupo ASSA explora permanentemente el mercado laboral para incorporar nuevos talentos a equipos de profesionales y busca personas para trabajar en equipos multidisciplinarios que interactúan directamente con los clientes.</value>
+    <value>Choosing a place to work is probably one of the most important decisions for a young professional. Those joining Grupo ASSA participate in teams that enable them to quickly increase their skills and develop their career. We seek principled people, with passion and the capacity to work in multidisciplinary teams and build lasting relationships.</value>
   </data>
   <data name="Index_WhatWeDo_Button" xml:space="preserve">
     <value>Read More!</value>
@@ -262,10 +262,12 @@
     <value>What do we do?</value>
   </data>
   <data name="Index_WhatWeDo_p1" xml:space="preserve">
-    <value>Brindamos servicios de consultoría, donde vas a ayudar a clientes a transformar sus procesos de negocios a través de diferentes tecnologías.</value>
+    <value>We provide consulting services, where you'll help customers transform their business processes across different technologies.</value>
   </data>
   <data name="Index_WhatWeDo_p2" xml:space="preserve">
-    <value>Somos una empresa Latinoamericana en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia.</value>
+    <value>We are a company where over 1,200 people contribute their ideas, their passion, and their talent in multiple teams and projects around the world.
+
+Our goal is to develop high performance teams made up of people with strong interpersonal and management skills, in order to add and create value for our clients.</value>
   </data>
   <data name="Index_Whyto_Button" xml:space="preserve">
     <value>Read More!</value>
@@ -274,9 +276,7 @@
     <value>Why should I be part of gA?</value>
   </data>
   <data name="Index_WhyTo_p1" xml:space="preserve">
-    <value>Aca iria el contenido generado por HC ... mientras tanto lo lleno con palabras vacias, sin contenido intelectual y, como agregado, poco sentido.
-
-Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
+    <value>Text not mapped yet.</value>
   </data>
   <data name="Locations_Argentina_Direction" xml:space="preserve">
     <value>Address:</value>
@@ -306,7 +306,7 @@ Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
     <value>Phone contact:</value>
   </data>
   <data name="Locations_Header_Main" xml:space="preserve">
-    <value>Multinational gA</value>
+    <value>Where are we?</value>
   </data>
   <data name="Locations_Header_p1" xml:space="preserve">
     <value>We count with several strategicly located business offices in different countries such as: Argentina, Brazil, Mexico, Chile, USA and Europe in which we offer several quality high quality services for many high profile clients.</value>
@@ -397,5 +397,8 @@ Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
   </data>
   <data name="Layout_link_3" xml:space="preserve">
     <value>Submit your CV</value>
+  </data>
+  <data name="Index_JoinGA_Button" xml:space="preserve">
+    <value>Read More!</value>
   </data>
 </root>

@@ -237,26 +237,17 @@
   <data name="Index_Header_Button" xml:space="preserve">
     <value>Cadastre seu CV</value>
   </data>
-  <data name="Index_Header_Main" xml:space="preserve">
-    <value>Empregos gA</value>
-  </data>
-  <data name="Index_Header_p1" xml:space="preserve">
-    <value>You can be part of something BIG!</value>
-  </data>
-  <data name="Index_Heder_p2" xml:space="preserve">
-    <value>Join gA!</value>
-  </data>
   <data name="Index_HowWeWork_Button" xml:space="preserve">
-    <value>Read More!</value>
+    <value>Leia mais!</value>
   </data>
   <data name="Index_JoinGA_Header" xml:space="preserve">
-    <value>Send us your Curriculum Vitae</value>
+    <value>Cadastre seu CV</value>
   </data>
   <data name="Index_JoinGA_p1" xml:space="preserve">
     <value>O Grupo ASSA explora permanentemente o mercado de trabalho para incorporar novos talentos a nossa equipe de profissionais.</value>
   </data>
   <data name="Index_WhatWeDo_Button" xml:space="preserve">
-    <value>Read More!</value>
+    <value>Leia mais!</value>
   </data>
   <data name="Index_WhatWeDo_Header" xml:space="preserve">
     <value>O que fazemos</value>
@@ -268,123 +259,121 @@
     <value>O Grupo ASSA é composto por mais de 1000 profissionais, que trabalham com inovação, paixão e talento nas mais diversas equipes e projetos distribuídos pela América Latina, USA, Europa e Ásia.</value>
   </data>
   <data name="Index_Whyto_Button" xml:space="preserve">
-    <value>Read More!</value>
+    <value>Leia mais!</value>
   </data>
   <data name="Index_WhyTo_Header" xml:space="preserve">
-    <value>Why should I be part of gA?</value>
+    <value>Por que eu deveria fazer parte da gA?</value>
   </data>
   <data name="Index_WhyTo_p1" xml:space="preserve">
-    <value>Aca iria el contenido generado por HC ... mientras tanto lo lleno con palabras vacias, sin contenido intelectual y, como agregado, poco sentido.
-
-Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
+    <value>Texto não mapeado</value>
   </data>
   <data name="Locations_Argentina_Direction" xml:space="preserve">
-    <value>Address:</value>
+    <value>Direção:</value>
   </data>
   <data name="Locations_Argentina_Email" xml:space="preserve">
-    <value>Email contact:</value>
+    <value>Email:</value>
   </data>
   <data name="Locations_Argentina_Phone" xml:space="preserve">
-    <value>Phone contact:</value>
+    <value>Telefone:</value>
   </data>
   <data name="Locations_BRA_Direction" xml:space="preserve">
-    <value>Address:</value>
+    <value>Direção:</value>
   </data>
   <data name="Locations_BRA_Email" xml:space="preserve">
-    <value>Email contact:</value>
+    <value>Email:</value>
   </data>
   <data name="Locations_BRA_Phone" xml:space="preserve">
-    <value>Phone contact:</value>
+    <value>Telefone:</value>
   </data>
   <data name="Locations_CHI_Direction" xml:space="preserve">
-    <value>Address:</value>
+    <value>Direção:</value>
   </data>
   <data name="Locations_CHI_Email" xml:space="preserve">
-    <value>Email contact:</value>
+    <value>Email:</value>
   </data>
   <data name="Locations_CHI_Phone" xml:space="preserve">
-    <value>Phone contact:</value>
+    <value>Telefone:</value>
   </data>
   <data name="Locations_Header_Main" xml:space="preserve">
-    <value>Multinational gA</value>
+    <value>Onde estamos</value>
   </data>
   <data name="Locations_Header_p1" xml:space="preserve">
     <value>Temos escritórios em Argentina, Brasil, México, Chile, EUA e Europa, de onde nós fornecemos serviços de qualidade aos clientes ao redor do mundo.</value>
   </data>
   <data name="Locations_MEX_Direction" xml:space="preserve">
-    <value>Address:</value>
+    <value>Direção:</value>
   </data>
   <data name="Locations_MEX_Email" xml:space="preserve">
-    <value>Email contact:</value>
+    <value>Email:</value>
   </data>
   <data name="Locations_MEX_Phone" xml:space="preserve">
-    <value>Phone contact:</value>
+    <value>Telefone:</value>
   </data>
   <data name="Locations_USA_Direction" xml:space="preserve">
-    <value>Address:</value>
+    <value>Direção:</value>
   </data>
   <data name="Locations_USA_Email" xml:space="preserve">
-    <value>Email contact:</value>
+    <value>Email:</value>
   </data>
   <data name="Locations_USA_Name" xml:space="preserve">
     <value>USA</value>
   </data>
   <data name="Locations_USA_Phone" xml:space="preserve">
-    <value>Phone contact:</value>
+    <value>Telefone:</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>Prueba en Portuges</value>
   </data>
   <data name="UploadForm_Area" xml:space="preserve">
-    <value>Expertise Area</value>
+    <value>Área de especialização</value>
   </data>
   <data name="UploadForm_Availability" xml:space="preserve">
-    <value>Availability</value>
+    <value>Disponibilidade</value>
   </data>
   <data name="UploadForm_BirthDate" xml:space="preserve">
-    <value>Birth Date</value>
+    <value>Data de nascimento</value>
   </data>
   <data name="UploadForm_Carreer" xml:space="preserve">
-    <value>Carreer</value>
+    <value>Carreira</value>
   </data>
   <data name="UploadForm_City" xml:space="preserve">
-    <value>City</value>
+    <value>Cidade</value>
   </data>
   <data name="UploadForm_Country" xml:space="preserve">
-    <value>Country</value>
+    <value>País</value>
   </data>
   <data name="UploadForm_CV" xml:space="preserve">
     <value>Curriculum Vitae</value>
   </data>
   <data name="UploadForm_EnglishLvl" xml:space="preserve">
-    <value>English expertise</value>
+    <value>Inglés especialização</value>
   </data>
   <data name="UploadForm_Header" xml:space="preserve">
-    <value>Send us your Curriculum Vitae</value>
+    <value>Envie-nos o seu Curriculum Vitae</value>
   </data>
   <data name="UploadForm_LastName" xml:space="preserve">
-    <value>Last Name</value>
+    <value>Sobrenome</value>
   </data>
   <data name="UploadForm_Mail" xml:space="preserve">
     <value>E-mail</value>
   </data>
   <data name="UploadForm_Name" xml:space="preserve">
-    <value>Name</value>
+    <value>Nome</value>
   </data>
   <data name="UploadForm_Other" xml:space="preserve">
-    <value>Other</value>
+    <value>Outros</value>
   </data>
   <data name="UploadForm_Policies" xml:space="preserve">
     <value>O Grupo ASSA é composto por mais de 1000 profissionais, que trabalham com inovação, paixão e talento nas mais diversas equipes e projetos distribuídos pela América Latina, USA, Europa e Ásia.</value>
   </data>
   <data name="UploadForm_Reference" xml:space="preserve">
-    <value>How did you find us?</value>
+    <value>Como nos encontrou?</value>
   </data>
   <data name="UploadForm_Remuneration" xml:space="preserve">
-    <value>Remuneration</value>
+    <value>Remuneração</value>
   </data>
   <data name="UploadForm_TravelAvailability" xml:space="preserve">
-    <value>Availability to travel</value>
+    <value>Disponibilidade de viagens</value>
   </data>
   <data name="Layout_Header" xml:space="preserve">
     <value>Empregos</value>
@@ -400,5 +389,8 @@ Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
   </data>
   <data name="Layout_link_3" xml:space="preserve">
     <value>Cadastre seu CV</value>
+  </data>
+  <data name="Index_JoinGA_Button" xml:space="preserve">
+    <value>Leia mais!</value>
   </data>
 </root>

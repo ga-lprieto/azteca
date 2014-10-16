@@ -262,7 +262,7 @@
     <value>Telefono de conacto:</value>
   </data>
   <data name="Locations_Header_Main" xml:space="preserve">
-    <value>gA Multinacional</value>
+    <value>Donde estamos</value>
   </data>
   <data name="Locations_Header_p1" xml:space="preserve">
     <value>Contamos con oficinas en multiples paises como Argentina, Brasil, Mexico, Chile, USA y Europa desde donde brindamos servicios de calidad para importantes clientes en todo el mundo</value>
@@ -328,9 +328,7 @@
     <value>Por que trabajar en gA.</value>
   </data>
   <data name="Index_WhyTo_p1" xml:space="preserve">
-    <value>Aca iria el contenido generado por HC ... mientras tanto lo lleno con palabras vacias, sin contenido intelectual y, como agregado, poco sentido.
-
-Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
+    <value>Texto no mapeado.</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>Texto de Prueba</value>
@@ -400,5 +398,8 @@ Que les parece? Pareciera que soy bastante bueno para esto no? :O</value>
   </data>
   <data name="Layout_link_3" xml:space="preserve">
     <value>Ingresá tu CV</value>
+  </data>
+  <data name="Index_JoinGA_Button" xml:space="preserve">
+    <value>Leer Mas!</value>
   </data>
 </root>

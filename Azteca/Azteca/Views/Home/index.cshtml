@@ -6,37 +6,6 @@
     ViewBag.ICOCV = "";
     ViewBag.ICOHacemos = "";
 }
-<style>
-    /* Main marketing message and sign up button */
-    .jumbotron {
-        margin: 20px 0;
-        text-align: center;
-    }
-
-    .jumbotron h1 {
-            font-size: 80px;
-            line-height: 1;
-        }
-
-    .jumbotron .lead {
-            font-size: 18px;
-            line-height: 1;
-        }
-
-    .jumbotron .btn {
-            font-size: 18px;
-            padding: 14px 24px;
-        }
-</style>
-
-<div class="jumbotron">
-    <h1>@Resources.Index_Header_Main</h1>
-    <p class="lead">@Resources.Index_Header_p1</p>
-    <p class="lead">@Resources.Index_Heder_p2</p>
-    <a class="btn btn-large btn-success" href="@Url.Action("Form","Upload")">@Resources.Index_Header_Button</a>
-</div>
-
-<hr>
 
 <div class="img-rounded"><center><img src="~/Content/Images/Miscelaneous/Innovation_Final.jpg"></center></div>
 
@@ -48,22 +17,20 @@
         <center><h2>@Resources.Index_WhatWeDo_Header</h2></center>
         <p>@Resources.Index_WhatWeDo_p1</p>
         <p>@Resources.Index_WhatWeDo_p2</p>
-        <center><p><a class="btn" href="http://empleos.grupoassa.com/empleos/que_hacemos/">@Resources.Index_WhatWeDo_Button  &raquo;</a></p></center>
+        <center><p><a class="btn" href="">@Resources.Index_WhatWeDo_Button  &raquo;</a></p></center>
     </div>
 
     
     <div class="span4">
         <center><h2>@Resources.Index_WhyTo_Header</h2></center>
-        <p>Text not mapped yet.</p>
-        <p>Extra Text not mapped yet.</p>
-        <center><p><a class="btn" href="FuturoLinkANuevaVista XD">@Resources.Index_Whyto_Button &raquo;</a></p></center>
+        <p>@Resources.Index_WhyTo_p1</p>
     </div>
 
 
     <div class="span4">
         <center><h2>@Resources.Index_JoinGA_Header</h2></center>
         <p>@Resources.Index_JoinGA_p1</p>
-        <center><p><a class="btn" href="@Url.Action("Form","Upload")">Sumate a gA! &raquo;</a></p></center>
+        <center><p><a class="btn" href="@Url.Action("Form","Upload")">@Resources.Index_JoinGA_Button &raquo;</a></p></center>
     </div>
 </div>
 
