@@ -3,6 +3,7 @@ using System.Web.Mvc;
 using System.IO;
 using Azteca.Helpers;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace Azteca.Controllers
 {
@@ -171,5 +172,19 @@ namespace Azteca.Controllers
 
             return body;
         }
+
+        public List<string> GetCountryList()
+        {
+
+            List<string> countries = new List<string>();
+            foreach (CultureInfo culture in CultureInfo.GetCultures(CultureTypes.SpecificCultures))
+            {
+                countries.Add(culture.NativeName);
+            }
+
+            return countries;
+        }
+
+
     }
 }

@@ -333,57 +333,6 @@
   <data name="TEST" xml:space="preserve">
     <value>Texto de Prueba</value>
   </data>
-  <data name="UploadForm_Area" xml:space="preserve">
-    <value>Áreas de trabajo</value>
-  </data>
-  <data name="UploadForm_Availability" xml:space="preserve">
-    <value>Disponibilidad</value>
-  </data>
-  <data name="UploadForm_BirthDate" xml:space="preserve">
-    <value>Fecha de nacimiento</value>
-  </data>
-  <data name="UploadForm_Carreer" xml:space="preserve">
-    <value>Carrera</value>
-  </data>
-  <data name="UploadForm_City" xml:space="preserve">
-    <value>Ciudad</value>
-  </data>
-  <data name="UploadForm_Country" xml:space="preserve">
-    <value>País</value>
-  </data>
-  <data name="UploadForm_CV" xml:space="preserve">
-    <value>Curriculum Vitae</value>
-  </data>
-  <data name="UploadForm_EnglishLvl" xml:space="preserve">
-    <value>Nivel de Inglés</value>
-  </data>
-  <data name="UploadForm_Header" xml:space="preserve">
-    <value>Ingresá tu CV</value>
-  </data>
-  <data name="UploadForm_LastName" xml:space="preserve">
-    <value>Apellido</value>
-  </data>
-  <data name="UploadForm_Mail" xml:space="preserve">
-    <value>E-mail</value>
-  </data>
-  <data name="UploadForm_Name" xml:space="preserve">
-    <value>Nombre</value>
-  </data>
-  <data name="UploadForm_Other" xml:space="preserve">
-    <value>Otra informacion</value>
-  </data>
-  <data name="UploadForm_Policies" xml:space="preserve">
-    <value>Grupo ASSA, es una empresa en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia. Ahora podes formar parte de nuestro equipo y crecer profesionalmente.</value>
-  </data>
-  <data name="UploadForm_Reference" xml:space="preserve">
-    <value>Como nos encontraste</value>
-  </data>
-  <data name="UploadForm_Remuneration" xml:space="preserve">
-    <value>Remuneracion pretendida</value>
-  </data>
-  <data name="UploadForm_TravelAvailability" xml:space="preserve">
-    <value>Disponibilidad para viajar</value>
-  </data>
   <data name="Layout_Header" xml:space="preserve">
     <value>Empleos</value>
   </data>
@@ -401,5 +350,134 @@
   </data>
   <data name="Index_JoinGA_Button" xml:space="preserve">
     <value>Leer Mas!</value>
+  </data>
+  <data name="Form_applyto" xml:space="preserve">
+    <value>Aplicar a</value>
+  </data>
+  <data name="Form_applyto_req" xml:space="preserve">
+    <value>El campo aplicar a es obligatorio.</value>
+  </data>
+  <data name="Form_availability" xml:space="preserve">
+    <value>Disponibilidad</value>
+  </data>
+  <data name="Form_availability_req" xml:space="preserve">
+    <value>El campo disponibilidad es obligatorio.</value>
+  </data>
+  <data name="Form_city" xml:space="preserve">
+    <value>Ciudad de residencia</value>
+  </data>
+  <data name="Form_city_ph" xml:space="preserve">
+    <value>ej: Florida</value>
+  </data>
+  <data name="Form_city_req" xml:space="preserve">
+    <value>El campo ciudad de residencia es obligatorio.</value>
+  </data>
+  <data name="Form_country" xml:space="preserve">
+    <value>País de residencia</value>
+  </data>
+  <data name="Form_country_req" xml:space="preserve">
+    <value>El campo país de residencia es obligatorio.</value>
+  </data>
+  <data name="Form_dateofbirth" xml:space="preserve">
+    <value>Fecha de nacimiento</value>
+  </data>
+  <data name="Form_dateofbirth_ph" xml:space="preserve">
+    <value>ej: 20/11/1990</value>
+  </data>
+  <data name="Form_dateofbirth_req" xml:space="preserve">
+    <value>El campo fecha de nacimiento es obligatorio.</value>
+  </data>
+  <data name="Form_dateofbirth_type" xml:space="preserve">
+    <value>La fecha ingresada no es valida.</value>
+  </data>
+  <data name="Form_degree" xml:space="preserve">
+    <value>Estudios</value>
+  </data>
+  <data name="Form_degree_req" xml:space="preserve">
+    <value>El campo Estudios es obligatorio.</value>
+  </data>
+  <data name="Form_email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Form_email_ph" xml:space="preserve">
+    <value>ej: email@domain.com</value>
+  </data>
+  <data name="Form_email_req" xml:space="preserve">
+    <value>El campo email es obligatorio.</value>
+  </data>
+  <data name="Form_email_type" xml:space="preserve">
+    <value>El email ingresado no es valido.</value>
+  </data>
+  <data name="Form_english" xml:space="preserve">
+    <value>Nivel de ingles</value>
+  </data>
+  <data name="Form_english_req" xml:space="preserve">
+    <value>El campo nivel de ingles es obligatorio.</value>
+  </data>
+  <data name="Form_file" xml:space="preserve">
+    <value>Curriculum vitae</value>
+  </data>
+  <data name="Form_file_req" xml:space="preserve">
+    <value>El campo curriculum vitae es obligatorio.</value>
+  </data>
+  <data name="Form_h1" xml:space="preserve">
+    <value>Ingresá tu CV</value>
+  </data>
+  <data name="Form_howto" xml:space="preserve">
+    <value>Como supiste de nosotros</value>
+  </data>
+  <data name="Form_jobarea" xml:space="preserve">
+    <value>Áreas de trabajo</value>
+  </data>
+  <data name="Form_lastname" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="Form_lastname_ph" xml:space="preserve">
+    <value>ej: Perez</value>
+  </data>
+  <data name="Form_lastname_req" xml:space="preserve">
+    <value>El campo apellido es obligatorio.</value>
+  </data>
+  <data name="Form_name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Form_name_ph" xml:space="preserve">
+    <value>ej: Juan</value>
+  </data>
+  <data name="Form_name_req" xml:space="preserve">
+    <value>El campo nombre es obligatorio.</value>
+  </data>
+  <data name="Form_otherinfo" xml:space="preserve">
+    <value>Otra información</value>
+  </data>
+  <data name="Form_salary" xml:space="preserve">
+    <value>Remuneracion pretendida</value>
+  </data>
+  <data name="Form_salary_ph1" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="Form_salary_ph2" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="Form_salary_req" xml:space="preserve">
+    <value>El campo remuneracion pretendida es obligatorio.</value>
+  </data>
+  <data name="Form_select_ph" xml:space="preserve">
+    <value>--- Seleccionar ---</value>
+  </data>
+  <data name="Form_text" xml:space="preserve">
+    <value>Grupo ASSA, es una empresa en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia. Ahora podes formar parte de nuestro equipo y crecer profesionalmente.</value>
+  </data>
+  <data name="Form_travel" xml:space="preserve">
+    <value>Disponibilidad para viajar</value>
+  </data>
+  <data name="Form_travel_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Form_travel_req" xml:space="preserve">
+    <value>El campo disponibilidad para viajar es obligatiorio.</value>
+  </data>
+  <data name="Form_travel_yes" xml:space="preserve">
+    <value>Si</value>
   </data>
 </root>

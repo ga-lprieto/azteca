@@ -332,57 +332,6 @@ Our goal is to develop high performance teams made up of people with strong inte
   <data name="Locations_USA_Phone" xml:space="preserve">
     <value>Phone contact:</value>
   </data>
-  <data name="UploadForm_Area" xml:space="preserve">
-    <value>Expertise Area</value>
-  </data>
-  <data name="UploadForm_Availability" xml:space="preserve">
-    <value>Availability</value>
-  </data>
-  <data name="UploadForm_BirthDate" xml:space="preserve">
-    <value>Birth Date</value>
-  </data>
-  <data name="UploadForm_Carreer" xml:space="preserve">
-    <value>Carreer</value>
-  </data>
-  <data name="UploadForm_City" xml:space="preserve">
-    <value>City</value>
-  </data>
-  <data name="UploadForm_Country" xml:space="preserve">
-    <value>Country</value>
-  </data>
-  <data name="UploadForm_CV" xml:space="preserve">
-    <value>Curriculum Vitae</value>
-  </data>
-  <data name="UploadForm_EnglishLvl" xml:space="preserve">
-    <value>English expertise</value>
-  </data>
-  <data name="UploadForm_Header" xml:space="preserve">
-    <value>Send us your Curriculum Vitae</value>
-  </data>
-  <data name="UploadForm_LastName" xml:space="preserve">
-    <value>Last Name</value>
-  </data>
-  <data name="UploadForm_Mail" xml:space="preserve">
-    <value>E-mail</value>
-  </data>
-  <data name="UploadForm_Name" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="UploadForm_Other" xml:space="preserve">
-    <value>Other</value>
-  </data>
-  <data name="UploadForm_Policies" xml:space="preserve">
-    <value>Grupo ASSA, es una empresa en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia. Ahora podes formar parte de nuestro equipo y crecer profesionalmente.</value>
-  </data>
-  <data name="UploadForm_Reference" xml:space="preserve">
-    <value>How did you find us?</value>
-  </data>
-  <data name="UploadForm_Remuneration" xml:space="preserve">
-    <value>Remuneration</value>
-  </data>
-  <data name="UploadForm_TravelAvailability" xml:space="preserve">
-    <value>Availability to travel</value>
-  </data>
   <data name="Layout_Header" xml:space="preserve">
     <value>Jobs</value>
   </data>
@@ -400,5 +349,134 @@ Our goal is to develop high performance teams made up of people with strong inte
   </data>
   <data name="Index_JoinGA_Button" xml:space="preserve">
     <value>Read More!</value>
+  </data>
+  <data name="Form_applyto" xml:space="preserve">
+    <value>Apply to</value>
+  </data>
+  <data name="Form_applyto_req" xml:space="preserve">
+    <value>The field apply to is required.</value>
+  </data>
+  <data name="Form_availability" xml:space="preserve">
+    <value>Abailability</value>
+  </data>
+  <data name="Form_availability_req" xml:space="preserve">
+    <value>The field availability is required.</value>
+  </data>
+  <data name="Form_city" xml:space="preserve">
+    <value>City of residence</value>
+  </data>
+  <data name="Form_city_ph" xml:space="preserve">
+    <value>ex: Florida</value>
+  </data>
+  <data name="Form_city_req" xml:space="preserve">
+    <value>The field city of residence is required.</value>
+  </data>
+  <data name="Form_country" xml:space="preserve">
+    <value>Country of residence</value>
+  </data>
+  <data name="Form_country_req" xml:space="preserve">
+    <value>The field country of residence is required.</value>
+  </data>
+  <data name="Form_dateofbirth" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Form_dateofbirth_ph" xml:space="preserve">
+    <value>ex: 11/20/1990</value>
+  </data>
+  <data name="Form_dateofbirth_req" xml:space="preserve">
+    <value>The field date of birth is required.</value>
+  </data>
+  <data name="Form_dateofbirth_type" xml:space="preserve">
+    <value>The date entered is not valid.</value>
+  </data>
+  <data name="Form_degree" xml:space="preserve">
+    <value>Studies</value>
+  </data>
+  <data name="Form_degree_req" xml:space="preserve">
+    <value>The field studies is required.</value>
+  </data>
+  <data name="Form_email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Form_email_ph" xml:space="preserve">
+    <value>ex: email@domain.com</value>
+  </data>
+  <data name="Form_email_req" xml:space="preserve">
+    <value>The field e-mail is required.</value>
+  </data>
+  <data name="Form_email_type" xml:space="preserve">
+    <value>The email entered is not valid.</value>
+  </data>
+  <data name="Form_english" xml:space="preserve">
+    <value>English level</value>
+  </data>
+  <data name="Form_english_req" xml:space="preserve">
+    <value>The field english level is required.</value>
+  </data>
+  <data name="Form_file" xml:space="preserve">
+    <value>Curriculum vitae</value>
+  </data>
+  <data name="Form_file_req" xml:space="preserve">
+    <value>The field curriculum vitae is required.</value>
+  </data>
+  <data name="Form_h1" xml:space="preserve">
+    <value>Submit your CV</value>
+  </data>
+  <data name="Form_howto" xml:space="preserve">
+    <value>How do you heard about us</value>
+  </data>
+  <data name="Form_jobarea" xml:space="preserve">
+    <value>Work areas</value>
+  </data>
+  <data name="Form_lastname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Form_lastname_ph" xml:space="preserve">
+    <value>ex: Doe</value>
+  </data>
+  <data name="Form_lastname_req" xml:space="preserve">
+    <value>The field last name is required.</value>
+  </data>
+  <data name="Form_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Form_name_ph" xml:space="preserve">
+    <value>ex: John</value>
+  </data>
+  <data name="Form_name_req" xml:space="preserve">
+    <value>The field name is required.</value>
+  </data>
+  <data name="Form_otherinfo" xml:space="preserve">
+    <value>Other info</value>
+  </data>
+  <data name="Form_salary" xml:space="preserve">
+    <value>Estimated salary</value>
+  </data>
+  <data name="Form_salary_ph1" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Form_salary_ph2" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="Form_salary_req" xml:space="preserve">
+    <value>The field estimatead salary is required.</value>
+  </data>
+  <data name="Form_select_ph" xml:space="preserve">
+    <value>--- Select ---</value>
+  </data>
+  <data name="Form_text" xml:space="preserve">
+    <value>Grupo ASSA is a company where over 1,200 people contribute their ideas, their passion, and their talent in multiple teams and projects around the world in USA, Europe, Asia and Latin America. If you would like to join a company in continuous growth, come discover what Grupo ASSA has to offer.</value>
+  </data>
+  <data name="Form_travel" xml:space="preserve">
+    <value>Availability to travel</value>
+  </data>
+  <data name="Form_travel_no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Form_travel_req" xml:space="preserve">
+    <value>The field availability to travel is required.</value>
+  </data>
+  <data name="Form_travel_yes" xml:space="preserve">
+    <value>Yes</value>
   </data>
 </root>

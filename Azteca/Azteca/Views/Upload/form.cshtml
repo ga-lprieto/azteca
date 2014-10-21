@@ -25,10 +25,10 @@
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span3 hidden-phone">
-            <h2>Ingresá tu CV</h2>
+            <h2>@Resources.Form_h1</h2>
             <hr />
             <img src="http://grupoassa.com/wp-content/uploads/2012/04/Foto1020-960x319.jpg" /><br /><br />
-            <p>Grupo ASSA, es una empresa en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia. Ahora podes formar parte de nuestro equipo y crecer profesionalmente.</p>
+            <p>@Resources.Form_text</p>
         </div>
         <div class="span7">
             <div class="visible-phone">
@@ -39,55 +39,55 @@
             {
                 @(f.ControlGroup().TextBoxFor(m => m.cv_name)
                     .Size(InputSize.BlockLevel)
-                    .Placeholder("ej: Juan")
+                    .Placeholder(Resources.Form_name_ph)
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_lastname)
                         .Size(InputSize.BlockLevel)
-                    .Placeholder("ej: Pérez")
+                    .Placeholder(Resources.Form_lastname_ph)
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_email)
                     .Size(InputSize.BlockLevel)
-                    .Placeholder("ej: prueba@ejemplo.com")
+                    .Placeholder(Resources.Form_email_ph)
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_dateofbirth)
                     .Size(InputSize.BlockLevel)
-                    .Placeholder("dd/mm/yyyy")
+                    .Placeholder(Resources.Form_dateofbirth_ph)
                     .Class("hasDatepicker")
                 )
                 @(f.ControlGroup().DropDownListFor(m => m.cv_country, (SelectList)ViewBag.countryList)
                     .Size(InputSize.BlockLevel)
-                        .OptionLabel("--- Seleccionar ---") 
+                            .OptionLabel(Resources.Form_select_ph) 
                 )
                 @(f.ControlGroup().TextBoxFor(m => m.cv_city)
-                    .Placeholder("ej: Olivos")
+                    .Placeholder(Resources.Form_city_ph)
                     .Class("autocompl")
                     .Size(InputSize.BlockLevel)
                 )
                 <hr />
                 @(f.ControlGroup().DropDownListFor(m => m.cv_degree, (SelectList) ViewBag.carrerList)
-                   .Size(InputSize.BlockLevel)   
-                   .OptionLabel("--- Seleccionar ---")             
+                   .Size(InputSize.BlockLevel)
+                       .OptionLabel(Resources.Form_select_ph)             
                 )
                 @(f.ControlGroup().DropDownListFor(m => m.cv_english, (SelectList)ViewBag.englishList)
                     .Size(InputSize.BlockLevel)
-                        .OptionLabel("--- Seleccionar ---") 
+                            .OptionLabel(Resources.Form_select_ph) 
                 )
                 
                 @(f.ControlGroup().DropDownListFor(m => m.cv_howto, (SelectList)ViewBag.howtoList)
                     .Size(InputSize.BlockLevel)
-                        .OptionLabel("--- Seleccionar ---") 
+                            .OptionLabel(Resources.Form_select_ph) 
                 )
                 @(f.ControlGroup().DropDownListFor(m => m.cv_availability, (SelectList)ViewBag.availabilityList)
                     .Size(InputSize.BlockLevel)
-                        .OptionLabel("--- Seleccionar ---") 
+                        .OptionLabel(Resources.Form_select_ph) 
                 )
                 @(f.ControlGroup().RadioButtonTrueFalseFor(m => m.cv_travel_disp)
-                    .InputLabelsText("Si", "No")
+                    .InputLabelsText(Resources.Form_travel_yes, Resources.Form_travel_no)
                         .HtmlAttributesInputFalse( new { @checked = "checked" })                  
                 )
 
                 <div class="control-group">
-                    <label class="control-label" for="inputEmail">Áreas de Trabajo</label>
+                    <label class="control-label" for="inputEmail">@Resources.Form_jobarea</label>
                     <div class="controls">
                         @foreach (JobArea j in (List<JobArea>)ViewBag.jobAreas)
                         {
@@ -100,9 +100,9 @@
                     </div>
                 </div>
                 <hr />
-                @f.ControlGroup().DropDownListFor(m => m.cv_applyto, (SelectList)ViewBag.applyTo).OptionLabel("--- Seleccionar ---")
+                @f.ControlGroup().DropDownListFor(m => m.cv_applyto, (SelectList)ViewBag.applyTo).OptionLabel(Resources.Form_select_ph)
                 @f.ControlGroup().TextAreaFor(m => m.cv_otherinfo)
-                @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder("Cantidad en ARS").Prepend("$").Append(".00")
+                @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder(Resources.Form_salary_ph1).Prepend(Resources.Form_salary_ph2).Append(".00")
                 @f.ControlGroup().FileFor(m => m.cv_file)
 
 
@@ -118,7 +118,7 @@
     $(document).ready(function () { 
         $(".hasDatepicker").datepicker();
             $.datepicker.setDefaults({
-                dateFormat: 'dd/mm/yy'
+                dateFormat: 'MM/dd/yy'
             });
 
     });
