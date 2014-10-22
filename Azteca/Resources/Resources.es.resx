@@ -234,60 +234,6 @@
   <data name="GAPolicies_Terminos" xml:space="preserve">
     <value>Términos y Condiciones de Uso Aviso Legal.</value>
   </data>
-  <data name="Locations_Argentina_Direction" xml:space="preserve">
-    <value>Direccion:</value>
-  </data>
-  <data name="Locations_Argentina_Email" xml:space="preserve">
-    <value>Email de contacto:</value>
-  </data>
-  <data name="Locations_Argentina_Phone" xml:space="preserve">
-    <value>Telefono de conacto:</value>
-  </data>
-  <data name="Locations_BRA_Direction" xml:space="preserve">
-    <value>Direccion:</value>
-  </data>
-  <data name="Locations_BRA_Email" xml:space="preserve">
-    <value>Email de contacto:</value>
-  </data>
-  <data name="Locations_BRA_Phone" xml:space="preserve">
-    <value>Telefono de conacto:</value>
-  </data>
-  <data name="Locations_CHI_Direction" xml:space="preserve">
-    <value>Direccion:</value>
-  </data>
-  <data name="Locations_CHI_Email" xml:space="preserve">
-    <value>Email de contacto:</value>
-  </data>
-  <data name="Locations_CHI_Phone" xml:space="preserve">
-    <value>Telefono de conacto:</value>
-  </data>
-  <data name="Locations_Header_Main" xml:space="preserve">
-    <value>Donde estamos</value>
-  </data>
-  <data name="Locations_Header_p1" xml:space="preserve">
-    <value>Contamos con oficinas en multiples paises como Argentina, Brasil, Mexico, Chile, USA y Europa desde donde brindamos servicios de calidad para importantes clientes en todo el mundo</value>
-  </data>
-  <data name="Locations_MEX_Direction" xml:space="preserve">
-    <value>Direccion:</value>
-  </data>
-  <data name="Locations_MEX_Email" xml:space="preserve">
-    <value>Email de contacto:</value>
-  </data>
-  <data name="Locations_MEX_Phone" xml:space="preserve">
-    <value>Telefono de conacto:</value>
-  </data>
-  <data name="Locations_USA_Direction" xml:space="preserve">
-    <value>Direccion:</value>
-  </data>
-  <data name="Locations_USA_Email" xml:space="preserve">
-    <value>Email de contacto:</value>
-  </data>
-  <data name="Locations_USA_Name" xml:space="preserve">
-    <value>Estados Unidos</value>
-  </data>
-  <data name="Locations_USA_Phone" xml:space="preserve">
-    <value>Telefono de conacto:</value>
-  </data>
   <data name="Index_Header_Button" xml:space="preserve">
     <value>Carga tu CV!</value>
   </data>
@@ -479,5 +425,122 @@
   </data>
   <data name="Form_travel_yes" xml:space="preserve">
     <value>Si</value>
+  </data>
+  <data name="Locations_ARG" xml:space="preserve">
+    <value>ARGENTINA</value>
+  </data>
+  <data name="Locations_ARG_BSAS" xml:space="preserve">
+    <value>Ciudad de Buenos Aires</value>
+  </data>
+  <data name="Locations_ARG_BSAS_p1" xml:space="preserve">
+    <value>Lima 241, Capital Federal (C1073AAE)</value>
+  </data>
+  <data name="Locations_ARG_BSAS_p2" xml:space="preserve">
+    <value>54 11 4510 7200 – marketing@grupoassa.com</value>
+  </data>
+  <data name="Locations_ARG_Tandil" xml:space="preserve">
+    <value>Tandil</value>
+  </data>
+  <data name="Locations_ARG_Tandil_p1" xml:space="preserve">
+    <value>Pasaje Fournier 27, Tandil, Provincia de Buenos Aires (7000)</value>
+  </data>
+  <data name="Locations_ARG_Tandil_p2" xml:space="preserve">
+    <value>54 11 4510 7300 - marketing@grupoassa.com</value>
+  </data>
+  <data name="Locations_BRA" xml:space="preserve">
+    <value>BRASIL</value>
+  </data>
+  <data name="Locations_BRA_BarraFunda" xml:space="preserve">
+    <value>São Paulo – SP (Barra Funda)</value>
+  </data>
+  <data name="Locations_BRA_BarraFunda_p1" xml:space="preserve">
+    <value>Rua Julio Gonzalez, 132 – São Paulo 01156-060 55</value>
+  </data>
+  <data name="Locations_BRA_BarraFunda_p2" xml:space="preserve">
+    <value>11 5508 0900 – marketingbr@grupoassa.com</value>
+  </data>
+  <data name="Locations_BRA_Curitiba" xml:space="preserve">
+    <value>Curitiba – PR</value>
+  </data>
+  <data name="Locations_BRA_Curitiba_p1" xml:space="preserve">
+    <value>Av. Presidente Kennedy 2511 Sobreloja - Agua Verde - Curitiba PR – (80610010)</value>
+  </data>
+  <data name="Locations_BRA_Curitiba_p2" xml:space="preserve">
+    <value>55 41 3071 5500 - marketingbr@grupoassa.com</value>
+  </data>
+  <data name="Locations_BRA_SP" xml:space="preserve">
+    <value>São Paulo – SP</value>
+  </data>
+  <data name="Locations_BRA_SP_p1" xml:space="preserve">
+    <value>Condominio Edificio Aron Birmann – Alexandre Dumas, 2200 – Piso 4 – Chácara Santo Antônio – São Paulo SP (04717910)</value>
+  </data>
+  <data name="Locations_BRA_SP_p2" xml:space="preserve">
+    <value>55 11 5508 0900 - marketingbr@grupoassa.com</value>
+  </data>
+  <data name="Locations_CHI" xml:space="preserve">
+    <value>CHILE</value>
+  </data>
+  <data name="Locations_CHI_Santiago" xml:space="preserve">
+    <value>Santiago de Chile</value>
+  </data>
+  <data name="Locations_CHI_Santiago_p1" xml:space="preserve">
+    <value>Rosario Norte 555 Oficina 502 – Edificio Neruda – Las Condes – Santiago</value>
+  </data>
+  <data name="Locations_CHI_Santiago_p2" xml:space="preserve">
+    <value>56 2 281 91500 - marketingcl@grupoassa.com</value>
+  </data>
+  <data name="Locations_COL" xml:space="preserve">
+    <value>COLOMBIA</value>
+  </data>
+  <data name="Locations_COL_Bogota" xml:space="preserve">
+    <value>Bogotá</value>
+  </data>
+  <data name="Locations_COL_Bogota_p1" xml:space="preserve">
+    <value>Calle 113 N. 7-21, Torre A, Oficina 1101</value>
+  </data>
+  <data name="Locations_COL_Bogota_p2" xml:space="preserve">
+    <value>571 658 1193 - marketingco@grupoassa.com</value>
+  </data>
+  <data name="Locations_Header_Main" xml:space="preserve">
+    <value>Donde estamos</value>
+  </data>
+  <data name="Locations_MEX" xml:space="preserve">
+    <value>MÉXICO</value>
+  </data>
+  <data name="Locations_MEX_City" xml:space="preserve">
+    <value>Ciudad de México</value>
+  </data>
+  <data name="Locations_MEX_City_p1" xml:space="preserve">
+    <value>Paseo de los Tamarindos 100 – Piso 4 – Colonia Bosques de las Lomas – (05120)</value>
+  </data>
+  <data name="Locations_MEX_City_p2" xml:space="preserve">
+    <value>52 55 9157 8700 - marketingmx@grupoassa.com (Oficina Comercial)</value>
+  </data>
+  <data name="Locations_MEX_City_p3" xml:space="preserve">
+    <value>Torre Zentrum, Av. Santa Fe 495, piso 5, Col. Cruz Manca, México D.F.</value>
+  </data>
+  <data name="Locations_MEX_City_p4" xml:space="preserve">
+    <value>52 55 9157 8700 - marketingmx@grupoassa.com (Delivery Center)</value>
+  </data>
+  <data name="Locations_MEX_Monterrey" xml:space="preserve">
+    <value>Monterrey</value>
+  </data>
+  <data name="Locations_MEX_Monterrey_p1" xml:space="preserve">
+    <value>Av. Ricardo Margain 575, piso 5, Oficina 504 – Torre IOS Campestre – Col. Santa Engracia, San Pedro Garza García – (66267)</value>
+  </data>
+  <data name="Locations_MEX_Monterrey_p2" xml:space="preserve">
+    <value>52 81 8000 7853 - marketingmx@grupoassa.com</value>
+  </data>
+  <data name="Locations_USA" xml:space="preserve">
+    <value>USA</value>
+  </data>
+  <data name="Locations_USA_Miami" xml:space="preserve">
+    <value>Miami, FL</value>
+  </data>
+  <data name="Locations_USA_Miami_p1" xml:space="preserve">
+    <value>10100 NW 116 Way, Suite 11 – Medley, FL – (33189)</value>
+  </data>
+  <data name="Locations_USA_Miami_p2" xml:space="preserve">
+    <value>1 786 206 4803 - marketingusa@grupoassa.com</value>
   </data>
 </root>
