@@ -126,6 +126,7 @@
     <Compile Include="Helpers\CountryHelper.cs" />
     <Compile Include="Helpers\CultureHelper.cs" />
     <Compile Include="Helpers\MailHelper.cs" />
+    <Compile Include="Helpers\RepositoryHelper.cs" />
     <Compile Include="Models\JobArea.cs" />
     <Compile Include="Models\Postulante.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -161,6 +162,8 @@
     <Content Include="Content\Theme\main.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\TwitterBootstrapMvcJs.js" />
+    <Content Include="Templates\emailTemplate_en.html" />
+    <Content Include="Templates\emailTemplate_pt.html" />
     <Content Include="Templates\emailTemplate_es.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

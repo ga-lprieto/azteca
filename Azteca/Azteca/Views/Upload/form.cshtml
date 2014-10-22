@@ -54,7 +54,7 @@
                     .Placeholder(Resources.Form_dateofbirth_ph)
                     .Class("hasDatepicker")
                 )
-                @(f.ControlGroup().DropDownListFor(m => m.cv_country, (SelectList)ViewBag.countryList)
+                @(f.ControlGroup().DropDownListFor(m => m.cv_country, RepositoryHelper.GetCountries())
                     .Size(InputSize.BlockLevel)
                             .OptionLabel(Resources.Form_select_ph) 
                 )
@@ -64,20 +64,20 @@
                     .Size(InputSize.BlockLevel)
                 )
                 <hr />
-                @(f.ControlGroup().DropDownListFor(m => m.cv_degree, (SelectList) ViewBag.carrerList)
+                @(f.ControlGroup().DropDownListFor(m => m.cv_degree, RepositoryHelper.GetStudies(CultureHelper.GetCurrentNeutralCulture()))
                    .Size(InputSize.BlockLevel)
                        .OptionLabel(Resources.Form_select_ph)             
                 )
-                @(f.ControlGroup().DropDownListFor(m => m.cv_english, (SelectList)ViewBag.englishList)
+                @(f.ControlGroup().DropDownListFor(m => m.cv_english, RepositoryHelper.GetEnglish())
                     .Size(InputSize.BlockLevel)
                             .OptionLabel(Resources.Form_select_ph) 
                 )
                 
-                @(f.ControlGroup().DropDownListFor(m => m.cv_howto, (SelectList)ViewBag.howtoList)
+                @(f.ControlGroup().DropDownListFor(m => m.cv_howto, RepositoryHelper.GetHowTo(CultureHelper.GetCurrentNeutralCulture()))
                     .Size(InputSize.BlockLevel)
                             .OptionLabel(Resources.Form_select_ph) 
                 )
-                @(f.ControlGroup().DropDownListFor(m => m.cv_availability, (SelectList)ViewBag.availabilityList)
+                @(f.ControlGroup().DropDownListFor(m => m.cv_availability, RepositoryHelper.GetAvailability(CultureHelper.GetCurrentNeutralCulture()))
                     .Size(InputSize.BlockLevel)
                         .OptionLabel(Resources.Form_select_ph) 
                 )
@@ -89,7 +89,7 @@
                 <div class="control-group">
                     <label class="control-label" for="inputEmail">@Resources.Form_jobarea</label>
                     <div class="controls">
-                        @foreach (JobArea j in (List<JobArea>)ViewBag.jobAreas)
+                        @foreach (JobArea j in RepositoryHelper.GetJobAreas(CultureHelper.GetCurrentNeutralCulture()))
                         {
                             <label class="checkbox">
                                 <input name="cv_job_area" type="checkbox" value="@j.name">
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <hr />
-                @f.ControlGroup().DropDownListFor(m => m.cv_applyto, (SelectList)ViewBag.applyTo).OptionLabel(Resources.Form_select_ph)
+                @f.ControlGroup().DropDownListFor(m => m.cv_applyto, RepositoryHelper.GetApplyTo(CultureHelper.GetCurrentNeutralCulture())).OptionLabel(Resources.Form_select_ph)
                 @f.ControlGroup().TextAreaFor(m => m.cv_otherinfo)
                 @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder(Resources.Form_salary_ph1).Prepend(Resources.Form_salary_ph2).Append(".00")
                 @f.ControlGroup().FileFor(m => m.cv_file)

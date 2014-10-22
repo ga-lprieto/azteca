@@ -15,7 +15,6 @@ C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\Resources.dll
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\Resources.pdb
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\pt\Resources.resources.dll
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\bin\Debug\es\Resources.resources.dll
-C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.Resources.resources
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.Resources.pt.resources
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.Resources.es.resources
@@ -24,3 +23,4 @@ C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\pt\Resources.
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\es\Resources.resources.dll
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.dll
 C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.pdb
+C:\Users\lprieto\Desktop\GitRepo\azteca\Azteca\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache

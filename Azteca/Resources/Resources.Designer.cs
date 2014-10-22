@@ -61,11 +61,1273 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Test String.
+        ///   Looks up a localized string similar to We offer the possibility to work alongside each client to undergo a business process tranformation through a high quality consulting service..
         /// </summary>
-        public static string TEST {
+        public static string AboutGA_p1 {
             get {
-                return ResourceManager.GetString("TEST", resourceCulture);
+                return ResourceManager.GetString("AboutGA_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We count with over 1200 professional resources who work alongside eachother by ringing into the game their pasion, ideas and talent in different multicultural teams and projects all across the world..
+        /// </summary>
+        public static string AboutGA_p2 {
+            get {
+                return ResourceManager.GetString("AboutGA_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We count with different estrategically located business offices in Argentina, Brazil, Chile, USA and Mexico from which we work alongside high profile clients such as Petrobras, Shell, LAN, Arcor, Electrolux, Claro in improving both their SAP and Oracle plataforms..
+        /// </summary>
+        public static string AboutGA_p3 {
+            get {
+                return ResourceManager.GetString("AboutGA_p3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Let us tell you about gA.
+        /// </summary>
+        public static string AboutGA_Tab01 {
+            get {
+                return ResourceManager.GetString("AboutGA_Tab01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our history..
+        /// </summary>
+        public static string AboutGA_Tab02 {
+            get {
+                return ResourceManager.GetString("AboutGA_Tab02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What do we do?.
+        /// </summary>
+        public static string AboutGA_WhatDoWeDo {
+            get {
+                return ResourceManager.GetString("AboutGA_WhatDoWeDo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apply to.
+        /// </summary>
+        public static string Form_applyto {
+            get {
+                return ResourceManager.GetString("Form_applyto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field apply to is required..
+        /// </summary>
+        public static string Form_applyto_req {
+            get {
+                return ResourceManager.GetString("Form_applyto_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Abailability.
+        /// </summary>
+        public static string Form_availability {
+            get {
+                return ResourceManager.GetString("Form_availability", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field availability is required..
+        /// </summary>
+        public static string Form_availability_req {
+            get {
+                return ResourceManager.GetString("Form_availability_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to City of residence.
+        /// </summary>
+        public static string Form_city {
+            get {
+                return ResourceManager.GetString("Form_city", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ex: Florida.
+        /// </summary>
+        public static string Form_city_ph {
+            get {
+                return ResourceManager.GetString("Form_city_ph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field city of residence is required..
+        /// </summary>
+        public static string Form_city_req {
+            get {
+                return ResourceManager.GetString("Form_city_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Country of residence.
+        /// </summary>
+        public static string Form_country {
+            get {
+                return ResourceManager.GetString("Form_country", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field country of residence is required..
+        /// </summary>
+        public static string Form_country_req {
+            get {
+                return ResourceManager.GetString("Form_country_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date of birth.
+        /// </summary>
+        public static string Form_dateofbirth {
+            get {
+                return ResourceManager.GetString("Form_dateofbirth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ex: 11/20/1990.
+        /// </summary>
+        public static string Form_dateofbirth_ph {
+            get {
+                return ResourceManager.GetString("Form_dateofbirth_ph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field date of birth is required..
+        /// </summary>
+        public static string Form_dateofbirth_req {
+            get {
+                return ResourceManager.GetString("Form_dateofbirth_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The date entered is not valid..
+        /// </summary>
+        public static string Form_dateofbirth_type {
+            get {
+                return ResourceManager.GetString("Form_dateofbirth_type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Studies.
+        /// </summary>
+        public static string Form_degree {
+            get {
+                return ResourceManager.GetString("Form_degree", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field studies is required..
+        /// </summary>
+        public static string Form_degree_req {
+            get {
+                return ResourceManager.GetString("Form_degree_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to E-Mail.
+        /// </summary>
+        public static string Form_email {
+            get {
+                return ResourceManager.GetString("Form_email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ex: email@domain.com.
+        /// </summary>
+        public static string Form_email_ph {
+            get {
+                return ResourceManager.GetString("Form_email_ph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field e-mail is required..
+        /// </summary>
+        public static string Form_email_req {
+            get {
+                return ResourceManager.GetString("Form_email_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The email entered is not valid..
+        /// </summary>
+        public static string Form_email_type {
+            get {
+                return ResourceManager.GetString("Form_email_type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English level.
+        /// </summary>
+        public static string Form_english {
+            get {
+                return ResourceManager.GetString("Form_english", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field english level is required..
+        /// </summary>
+        public static string Form_english_req {
+            get {
+                return ResourceManager.GetString("Form_english_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Curriculum vitae.
+        /// </summary>
+        public static string Form_file {
+            get {
+                return ResourceManager.GetString("Form_file", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field curriculum vitae is required..
+        /// </summary>
+        public static string Form_file_req {
+            get {
+                return ResourceManager.GetString("Form_file_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submit your CV.
+        /// </summary>
+        public static string Form_h1 {
+            get {
+                return ResourceManager.GetString("Form_h1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How do you heard about us.
+        /// </summary>
+        public static string Form_howto {
+            get {
+                return ResourceManager.GetString("Form_howto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Work areas.
+        /// </summary>
+        public static string Form_jobarea {
+            get {
+                return ResourceManager.GetString("Form_jobarea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last name.
+        /// </summary>
+        public static string Form_lastname {
+            get {
+                return ResourceManager.GetString("Form_lastname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ex: Doe.
+        /// </summary>
+        public static string Form_lastname_ph {
+            get {
+                return ResourceManager.GetString("Form_lastname_ph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field last name is required..
+        /// </summary>
+        public static string Form_lastname_req {
+            get {
+                return ResourceManager.GetString("Form_lastname_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string Form_name {
+            get {
+                return ResourceManager.GetString("Form_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ex: John.
+        /// </summary>
+        public static string Form_name_ph {
+            get {
+                return ResourceManager.GetString("Form_name_ph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field name is required..
+        /// </summary>
+        public static string Form_name_req {
+            get {
+                return ResourceManager.GetString("Form_name_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Other info.
+        /// </summary>
+        public static string Form_otherinfo {
+            get {
+                return ResourceManager.GetString("Form_otherinfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Estimated salary.
+        /// </summary>
+        public static string Form_salary {
+            get {
+                return ResourceManager.GetString("Form_salary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Amount.
+        /// </summary>
+        public static string Form_salary_ph1 {
+            get {
+                return ResourceManager.GetString("Form_salary_ph1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to $.
+        /// </summary>
+        public static string Form_salary_ph2 {
+            get {
+                return ResourceManager.GetString("Form_salary_ph2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field estimatead salary is required..
+        /// </summary>
+        public static string Form_salary_req {
+            get {
+                return ResourceManager.GetString("Form_salary_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to --- Select ---.
+        /// </summary>
+        public static string Form_select_ph {
+            get {
+                return ResourceManager.GetString("Form_select_ph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grupo ASSA is a company where over 1,200 people contribute their ideas, their passion, and their talent in multiple teams and projects around the world in USA, Europe, Asia and Latin America. If you would like to join a company in continuous growth, come discover what Grupo ASSA has to offer..
+        /// </summary>
+        public static string Form_text {
+            get {
+                return ResourceManager.GetString("Form_text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Availability to travel.
+        /// </summary>
+        public static string Form_travel {
+            get {
+                return ResourceManager.GetString("Form_travel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string Form_travel_no {
+            get {
+                return ResourceManager.GetString("Form_travel_no", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The field availability to travel is required..
+        /// </summary>
+        public static string Form_travel_req {
+            get {
+                return ResourceManager.GetString("Form_travel_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string Form_travel_yes {
+            get {
+                return ResourceManager.GetString("Form_travel_yes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 8. Aceptación de estas Normas.
+        /// </summary>
+        public static string GAPolicies_Aceptance_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Aceptance_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Estas Normas constituyen compromiso legal contraído por el Visitante y Grupo ASSA. Si el Visitante visita las páginas web de Grupo ASSA, significa que ha leído, entendido y acordado los términos antes expuestos.
+        /// </summary>
+        public static string GAPolicies_Aceptance_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Aceptance_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Registro Nacional de Base de Datos.
+        /// </summary>
+        public static string GAPolicies_Aceptance_p2 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Aceptance_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Información para Visitantes.
+        /// </summary>
+        public static string GAPolicies_Aceptance_p3 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Aceptance_p3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grupo ASSA S.A. ha cumplimentado los requisitos que exige la Ley Nº 25.326 de Protección de Datos Personales difundida por la Dirección Nacional de Protección de Datos Personales, asumiendo el carácter de Responsable Registrado..
+        /// </summary>
+        public static string GAPolicies_Aceptance_p4 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Aceptance_p4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley Nº 25.326..
+        /// </summary>
+        public static string GAPolicies_Aceptance_p5 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Aceptance_p5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to La DIRECCION NACIONAL DE PROTECCION DE DATOS PERSONALES, Organo de Control de la Ley Nº 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales..
+        /// </summary>
+        public static string GAPolicies_Aceptance_p6 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Aceptance_p6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5. Content.
+        /// </summary>
+        public static string GAPolicies_Content_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Content_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Propios: Grupo ASSA ofrece sus Contenidos como un servicio para sus Visitantes, los que deberían usarlos con carácter informativo y/o educativo. Grupo ASSA no tiene responsabilidad en los errores u omisiones de estos materiales. Tampoco garantiza, explícita o implícitamente, que los Contenidos publicados en sus páginas de web, la exactitud o confiabilidad de los textos, gráficos, enlaces y otros elementos accesibles y alocados en su servidor de Internet..
+        /// </summary>
+        public static string GAPolicies_Content_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Content_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to De terceros: Grupo ASSA advierte que al no ser de su titularidad toda la información contenida en las páginas de web, algunos de los textos, gráficos, vínculos y/o el contenido de algunos artículos incluidos en el mismo podrían no ser veraces o no estar actualizados; asimismo tampoco garantiza el cumplimiento de las normativas vigentes en relación con dichos Contenidos propiedad de terceros. Grupo ASSA no será responsable por el cumplimiento de la legislación vigente en materia de propiedad intelectual o ve [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Content_p2 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Content_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grupo ASSA o terceras personas podrán proveer enlaces a otros sitios o recursos en la web, en los cuales no tiene control, por lo que el Visitante acepta y conviene que Grupo ASSA no será responsable por la disponibilidad de dichos sitios y recursos externos, y no los respalda ni es responsable o tiene obligación legal por su Contenido, comercialización, productos u otros materiales en los sitios o recursos disponibles desde dichos sitios o recursos. Además el Visitante acepta y acuerda que Grupo ASSA no se [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Content_p3 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Content_p3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3. Copyright..
+        /// </summary>
+        public static string GAPolicies_Copyright_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Copyright_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Todos los contenidos de estas páginas de web, comprendiendo, sin carácter limitativo, los textos (incluyendo los comentarios, disertaciones, exposiciones y reproducciones), gráficos, logos, iconos, imágenes, archivos de audio y video, y software (los &quot;Contenidos&quot;) son propiedad exclusiva de Grupo ASSA y/o de sus proveedores de Contenidos, y los mismos están protegidos por las leyes de propiedad intelectual. Las mejoras y/o modificaciones de los Contenidos de estas páginas de web son propiedad exclusiva de G [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Copyright_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Copyright_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grupo ASSA..
+        /// </summary>
+        public static string GAPolicies_GrupoASSA {
+            get {
+                return ResourceManager.GetString("GAPolicies_GrupoASSA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Privacy Policies..
+        /// </summary>
+        public static string GAPolicies_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 7. Jurisdiction..
+        /// </summary>
+        public static string GAPolicies_Jurisdiction_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Jurisdiction_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Todos aquellos Visitantes que ingresen a el Sitio aceptan someterse a la legislación de la República Argentina y a la jurisdicción de los tribunales ordinarios de la Ciudad Autónoma de Buenos Aires..
+        /// </summary>
+        public static string GAPolicies_Jusridiction_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Jusridiction_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1. Legal Framework..
+        /// </summary>
+        public static string GAPolicies_Legal {
+            get {
+                return ResourceManager.GetString("GAPolicies_Legal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grupo ASSA informa que el sitio web www.grupoassa.com (en adelante el Sitio) tiene por objeto facilitar al público en general, el conocimiento de las actividades que realiza y de los servicios que presta. El acceso a el Sitio atribuye la condición de visitante del mismo (en adelante Visitante) e implica la plena aceptación y sin reservas de todos los términos y condiciones que se detallan a continuación según se encuentren vigentes en el momento en que el Visitante acceda a el Sitio. Grupo ASSA se reserva l [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Legal_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Legal_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 4. Marcas..
+        /// </summary>
+        public static string GAPolicies_Marcas_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Marcas_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;Grupo ASSA&quot;, &quot;grupoassa.com&quot;, &quot;grupossa.com/brasil&quot;, &quot;grupoassa.com/mexico&quot;, &quot;grupoassa.com/usa&quot;, &quot;ASSA Express&quot;, &quot;ASSA News&quot;, Application News&quot;, &quot;ASSA Pyme&quot;, &quot;e-solutions&quot;, &quot;Grupo ASSA.com.ar&quot;, ?grupoassa.com/español?, ?grupoassa.com/portugués?, ?grupoassa.com/ingles? y ?Grupo ASSA Upd@te&quot; son marcas de Grupo ASSA registradas en la Argentina y en otras jurisdicciones. Los gráficos, logos y nombres que identifican los Contenidos también son marcas registradas de Grupo ASSA. Estas marcas registradas no pued [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Marcas_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Marcas_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2. Normas de Confidencialidad / Privacidad..
+        /// </summary>
+        public static string GAPolicies_Privacy_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grupo ASSA adopta una política de confidencialidad por la que protege la privacidad de la información personal suministrada por los Visitantes a nuestras páginas de web. Las Normas de Confidencialidad que articulan esta política, son las que se detallan a continuación..
+        /// </summary>
+        public static string GAPolicies_Privacy_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tipo de información comprendida. Toda aquella información personal que el Visitante ingresa voluntariamente a nuestras páginas de web. Esta información es la que el Visitante suministra a Grupo ASSA cuando solicita su Grupo ASSA Upd@te (Newsletter de Grupo ASSA) ; su acceso a información referente a localizaciones de productos, su acceso a realizar download de información sobre Grupo ASSA, su posibilidad de postularse para búsquedas laborales o; en cualquier otra ocasión. En general, esta información compre [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Privacy_p2 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El Visitante reconoce expresamente que al ingresar a este sitio otorga a Grupo ASSA su consentimiento libre, expreso e informado para utilizar todos sus datos personales cualquiera sea su naturaleza y/o especie bajo cualquier modalidad y/o fin, incluso cederlos a terceros en cualquier momento. Asimismo reconoce que tiene conocimiento acabado de: a) La finalidad o finalidades con que serán utilizados y quienes pueden ser los destinatarios de tales datos; b) La consecuencia de proporcionar los datos y la nega [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Privacy_p3 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Finalidad de uso de la Información. En todos los casos, la información suministrada por el Visitante será utilizada con la finalidad por la que fue provista, o con el fin adicional al que el Visitante autorice su uso. Todos aquellos datos obtenidos del Visitante en carácter de ?confidencial?, serán utilizados únicamente para proveer al mismo un servicio personalizado de acuerdo a lo requerido por el Visitante, pudiéndole ofrecer publicidad o material informativo de su interés, informarlo y/o convocarlo a bú [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Privacy_p4 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confidencialidad de la Información. Grupo ASSA no compartirá la información suministrada con ningún otro Visitante o con otros terceros, excepto en los casos en que cuente con expresa autorización de quienes la suministraron, o; de que sea requerida por orden judicial, legal o administrativo o; para proteger derechos de propiedad u otros derechos de Grupo ASSA. Grupo ASSA no vende ni alquila la información de los Visitantes..
+        /// </summary>
+        public static string GAPolicies_Privacy_p5 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modificación / Actualización de la información personal. Los datos personales proporcionados por el Visitante formarán parte de un archivo que contendrá su perfil de interés. Grupo ASSA aconseja al Visitante que actualice sus datos cada vez que éstos sufran alguna modificación, ya que esto permitirá mantener un mejor contacto entre Grupo ASSA y el Visitante..
+        /// </summary>
+        public static string GAPolicies_Privacy_p6 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Protección de la Información Personal. Debido a que ninguna transmisión por Internet puede garantizar su seguridad al 100%, Grupo ASSA no puede garantizar que la información suministrada por el Visitante utilizando su servicio sea completamente segura, motivo por el que, el Visitante corre su propio riesgo, al suministrar su información utilizando su servicio. Para disminuir los riesgos Grupo ASSA recomienda al Visitante salir de su cuenta y cerrar la ventana de su navegador cuando finalice su actividad, má [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string GAPolicies_Privacy_p7 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aceptación de las Normas de Confidencialidad. Estas Normas de Confidencialidad constituyen un compromiso legal entre el Visitante y Grupo ASSA. Si el Visitante visita las páginas web de Grupo ASSA, significa que ha leído, entendido y acordado los términos antes expuestos. Si no está de acuerdo con ellos, el Visitante no deberá proporcionar ninguna información personal..
+        /// </summary>
+        public static string GAPolicies_Privacy_p8 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Privacy_p8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 6. Responsability..
+        /// </summary>
+        public static string GAPolicies_Responsability_Header {
+            get {
+                return ResourceManager.GetString("GAPolicies_Responsability_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grupo ASSA NO SE RESPONSABILIZA, BAJO NINGUNA CIRCUNSTANCIA, POR LA INTERPRETACIÓN Y/O POR LA INCORRECTA INTERPRETACIÓN, O POR EL USO INDEBIDO, DE LO EXPRESADO EN SUS PAGINAS DE WEB. Grupo ASSA TAMPOCO SERÁ RESPONSABLE POR LOS DAÑOS QUE SEAN CONSECUENCIA DIRECTA O INDIRECTA O REMOTA DE LA INTERRUPCIÓN, SUSPENSIÓN O FINALIZACIÓN DE LOS SERVICIOS O INFORMACIÓN SUMINISTRADA POR Grupo ASSA A TRAVÉS DE SUS PAGINAS DE WEB..
+        /// </summary>
+        public static string GAPolicies_Responsability_p1 {
+            get {
+                return ResourceManager.GetString("GAPolicies_Responsability_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Therms and conditions:.
+        /// </summary>
+        public static string GAPolicies_Terminos {
+            get {
+                return ResourceManager.GetString("GAPolicies_Terminos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send us your Curriculum Vitae.
+        /// </summary>
+        public static string Index_Header_Button {
+            get {
+                return ResourceManager.GetString("Index_Header_Button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jobs gA.
+        /// </summary>
+        public static string Index_Header_Main {
+            get {
+                return ResourceManager.GetString("Index_Header_Main", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You can be part of something BIG!.
+        /// </summary>
+        public static string Index_Header_p1 {
+            get {
+                return ResourceManager.GetString("Index_Header_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Join gA!.
+        /// </summary>
+        public static string Index_Heder_p2 {
+            get {
+                return ResourceManager.GetString("Index_Heder_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read More!.
+        /// </summary>
+        public static string Index_HowWeWork_Button {
+            get {
+                return ResourceManager.GetString("Index_HowWeWork_Button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read More!.
+        /// </summary>
+        public static string Index_JoinGA_Button {
+            get {
+                return ResourceManager.GetString("Index_JoinGA_Button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send us your Curriculum Vitae.
+        /// </summary>
+        public static string Index_JoinGA_Header {
+            get {
+                return ResourceManager.GetString("Index_JoinGA_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choosing a place to work is probably one of the most important decisions for a young professional. Those joining Grupo ASSA participate in teams that enable them to quickly increase their skills and develop their career. We seek principled people, with passion and the capacity to work in multidisciplinary teams and build lasting relationships..
+        /// </summary>
+        public static string Index_JoinGA_p1 {
+            get {
+                return ResourceManager.GetString("Index_JoinGA_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read More!.
+        /// </summary>
+        public static string Index_WhatWeDo_Button {
+            get {
+                return ResourceManager.GetString("Index_WhatWeDo_Button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What do we do?.
+        /// </summary>
+        public static string Index_WhatWeDo_Header {
+            get {
+                return ResourceManager.GetString("Index_WhatWeDo_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We provide consulting services, where you&apos;ll help customers transform their business processes across different technologies..
+        /// </summary>
+        public static string Index_WhatWeDo_p1 {
+            get {
+                return ResourceManager.GetString("Index_WhatWeDo_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We are a company where over 1,200 people contribute their ideas, their passion, and their talent in multiple teams and projects around the world.
+        ///
+        ///Our goal is to develop high performance teams made up of people with strong interpersonal and management skills, in order to add and create value for our clients..
+        /// </summary>
+        public static string Index_WhatWeDo_p2 {
+            get {
+                return ResourceManager.GetString("Index_WhatWeDo_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read More!.
+        /// </summary>
+        public static string Index_Whyto_Button {
+            get {
+                return ResourceManager.GetString("Index_Whyto_Button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Why should I be part of gA?.
+        /// </summary>
+        public static string Index_WhyTo_Header {
+            get {
+                return ResourceManager.GetString("Index_WhyTo_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text not mapped yet..
+        /// </summary>
+        public static string Index_WhyTo_p1 {
+            get {
+                return ResourceManager.GetString("Index_WhyTo_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jobs.
+        /// </summary>
+        public static string Layout_Header {
+            get {
+                return ResourceManager.GetString("Layout_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language .
+        /// </summary>
+        public static string Layout_lang {
+            get {
+                return ResourceManager.GetString("Layout_lang", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What we do.
+        /// </summary>
+        public static string Layout_link_1 {
+            get {
+                return ResourceManager.GetString("Layout_link_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Where we are.
+        /// </summary>
+        public static string Layout_link_2 {
+            get {
+                return ResourceManager.GetString("Layout_link_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submit your CV.
+        /// </summary>
+        public static string Layout_link_3 {
+            get {
+                return ResourceManager.GetString("Layout_link_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ARGENTINA.
+        /// </summary>
+        public static string Locations_ARG {
+            get {
+                return ResourceManager.GetString("Locations_ARG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ciudad de Buenos Aires.
+        /// </summary>
+        public static string Locations_ARG_BSAS {
+            get {
+                return ResourceManager.GetString("Locations_ARG_BSAS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lima 241, Capital Federal (C1073AAE).
+        /// </summary>
+        public static string Locations_ARG_BSAS_p1 {
+            get {
+                return ResourceManager.GetString("Locations_ARG_BSAS_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 54 11 4510 7200 – marketing@grupoassa.com.
+        /// </summary>
+        public static string Locations_ARG_BSAS_p2 {
+            get {
+                return ResourceManager.GetString("Locations_ARG_BSAS_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tandil.
+        /// </summary>
+        public static string Locations_ARG_Tandil {
+            get {
+                return ResourceManager.GetString("Locations_ARG_Tandil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pasaje Fournier 27, Tandil, Provincia de Buenos Aires (7000).
+        /// </summary>
+        public static string Locations_ARG_Tandil_p1 {
+            get {
+                return ResourceManager.GetString("Locations_ARG_Tandil_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 54 11 4510 7300 - marketing@grupoassa.com.
+        /// </summary>
+        public static string Locations_ARG_Tandil_p2 {
+            get {
+                return ResourceManager.GetString("Locations_ARG_Tandil_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BRASIL.
+        /// </summary>
+        public static string Locations_BRA {
+            get {
+                return ResourceManager.GetString("Locations_BRA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to São Paulo – SP (Barra Funda).
+        /// </summary>
+        public static string Locations_BRA_BarraFunda {
+            get {
+                return ResourceManager.GetString("Locations_BRA_BarraFunda", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rua Julio Gonzalez, 132 – São Paulo 01156-060 55.
+        /// </summary>
+        public static string Locations_BRA_BarraFunda_p1 {
+            get {
+                return ResourceManager.GetString("Locations_BRA_BarraFunda_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 11 5508 0900 – marketingbr@grupoassa.com.
+        /// </summary>
+        public static string Locations_BRA_BarraFunda_p2 {
+            get {
+                return ResourceManager.GetString("Locations_BRA_BarraFunda_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Curitiba – PR.
+        /// </summary>
+        public static string Locations_BRA_Curitiba {
+            get {
+                return ResourceManager.GetString("Locations_BRA_Curitiba", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Av. Presidente Kennedy 2511 Sobreloja - Agua Verde - Curitiba PR – (80610010).
+        /// </summary>
+        public static string Locations_BRA_Curitiba_p1 {
+            get {
+                return ResourceManager.GetString("Locations_BRA_Curitiba_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 55 41 3071 5500 - marketingbr@grupoassa.com.
+        /// </summary>
+        public static string Locations_BRA_Curitiba_p2 {
+            get {
+                return ResourceManager.GetString("Locations_BRA_Curitiba_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to São Paulo – SP.
+        /// </summary>
+        public static string Locations_BRA_SP {
+            get {
+                return ResourceManager.GetString("Locations_BRA_SP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aron Birmann Building – Alexandre Dumas 2200 – 4th Floor – Chácara Santo Antônio – São Paulo SP – 04717910.
+        /// </summary>
+        public static string Locations_BRA_SP_p1 {
+            get {
+                return ResourceManager.GetString("Locations_BRA_SP_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 55 11 5508 0900 - marketingbr@grupoassa.com.
+        /// </summary>
+        public static string Locations_BRA_SP_p2 {
+            get {
+                return ResourceManager.GetString("Locations_BRA_SP_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CHILE.
+        /// </summary>
+        public static string Locations_CHI {
+            get {
+                return ResourceManager.GetString("Locations_CHI", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Santiago de Chile.
+        /// </summary>
+        public static string Locations_CHI_Santiago {
+            get {
+                return ResourceManager.GetString("Locations_CHI_Santiago", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rosario Norte 555 Oficina 502 – Edificio Neruda – Las Condes – Santiago.
+        /// </summary>
+        public static string Locations_CHI_Santiago_p1 {
+            get {
+                return ResourceManager.GetString("Locations_CHI_Santiago_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 56 2 281 91500 - marketingcl@grupoassa.com.
+        /// </summary>
+        public static string Locations_CHI_Santiago_p2 {
+            get {
+                return ResourceManager.GetString("Locations_CHI_Santiago_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to COLOMBIA.
+        /// </summary>
+        public static string Locations_COL {
+            get {
+                return ResourceManager.GetString("Locations_COL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bogotá.
+        /// </summary>
+        public static string Locations_COL_Bogota {
+            get {
+                return ResourceManager.GetString("Locations_COL_Bogota", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 113 street N. 7-21, Tower A, Office 1101.
+        /// </summary>
+        public static string Locations_COL_Bogota_p1 {
+            get {
+                return ResourceManager.GetString("Locations_COL_Bogota_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 571 658 1193 - marketingco@grupoassa.com.
+        /// </summary>
+        public static string Locations_COL_Bogota_p2 {
+            get {
+                return ResourceManager.GetString("Locations_COL_Bogota_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Where are we?.
+        /// </summary>
+        public static string Locations_Header_Main {
+            get {
+                return ResourceManager.GetString("Locations_Header_Main", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MÉXICO.
+        /// </summary>
+        public static string Locations_MEX {
+            get {
+                return ResourceManager.GetString("Locations_MEX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ciudad de México.
+        /// </summary>
+        public static string Locations_MEX_City {
+            get {
+                return ResourceManager.GetString("Locations_MEX_City", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paseo de los Tamarindos 100 – Piso 4 – Colonia Bosques de las Lomas – (05120).
+        /// </summary>
+        public static string Locations_MEX_City_p1 {
+            get {
+                return ResourceManager.GetString("Locations_MEX_City_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 52 55 9157 8700 - marketingmx@grupoassa.com (Oficina Comercial).
+        /// </summary>
+        public static string Locations_MEX_City_p2 {
+            get {
+                return ResourceManager.GetString("Locations_MEX_City_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Torre Zentrum, Av. Santa Fe 495, piso 5, Col. Cruz Manca, México D.F..
+        /// </summary>
+        public static string Locations_MEX_City_p3 {
+            get {
+                return ResourceManager.GetString("Locations_MEX_City_p3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 52 55 9157 8700 - marketingmx@grupoassa.com (Delivery Center).
+        /// </summary>
+        public static string Locations_MEX_City_p4 {
+            get {
+                return ResourceManager.GetString("Locations_MEX_City_p4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monterrey.
+        /// </summary>
+        public static string Locations_MEX_Monterrey {
+            get {
+                return ResourceManager.GetString("Locations_MEX_Monterrey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Av. Ricardo Margain 575, piso 5, Oficina 504 – Torre IOS Campestre – Col. Santa Engracia, San Pedro Garza García – (66267).
+        /// </summary>
+        public static string Locations_MEX_Monterrey_p1 {
+            get {
+                return ResourceManager.GetString("Locations_MEX_Monterrey_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 52 81 8000 7853 - marketingmx@grupoassa.com.
+        /// </summary>
+        public static string Locations_MEX_Monterrey_p2 {
+            get {
+                return ResourceManager.GetString("Locations_MEX_Monterrey_p2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to USA.
+        /// </summary>
+        public static string Locations_USA {
+            get {
+                return ResourceManager.GetString("Locations_USA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Miami, FL.
+        /// </summary>
+        public static string Locations_USA_Miami {
+            get {
+                return ResourceManager.GetString("Locations_USA_Miami", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10100 NW 116 Way, Suite 11 – Medley, FL – (33189).
+        /// </summary>
+        public static string Locations_USA_Miami_p1 {
+            get {
+                return ResourceManager.GetString("Locations_USA_Miami_p1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 786 206 4803 - marketingusa@grupoassa.com.
+        /// </summary>
+        public static string Locations_USA_Miami_p2 {
+            get {
+                return ResourceManager.GetString("Locations_USA_Miami_p2", resourceCulture);
             }
         }
     }

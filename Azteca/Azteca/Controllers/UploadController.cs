@@ -14,35 +14,6 @@ namespace Azteca.Controllers
 
         public ActionResult Form()
         {
-
-            List<JobArea> l = new List<JobArea>();
-            l.Add(new JobArea { name = "Jovenes Profesionales", id = "1" });
-            l.Add(new JobArea { name = "Consultoría SAP", id = "2" });
-            l.Add(new JobArea { name = "Consultoría Oracle", id = "3" });
-            l.Add(new JobArea { name = "Seguridad IT", id = "4" });
-            l.Add(new JobArea { name = "Consultoría en Procesos", id = "5" });
-            l.Add(new JobArea { name = "Programación", id = "6" });
-            l.Add(new JobArea { name = "Administración de Servidores", id = "7" });
-            l.Add(new JobArea { name = "RRHH", id = "8" });
-            l.Add(new JobArea { name = "Administración", id = "9" });
-            l.Add(new JobArea { name = "Marketing", id = "10" });
-            l.Add(new JobArea { name = "Legales", id = "11" });
-            l.Add(new JobArea { name = "Secretarias / Recepcionistas", id = "12" });
-            l.Add(new JobArea { name = "Finanzas", id = "13" });
-            ViewBag.jobAreas = l;
-
-            string[] availability = { "Full Time", "Part Time (6 horas)" };
-            string[] howto = { "Publicidad", "Reporte de Analistas", "Artículos o Noticias", "Eventos", "Empleado de Grupo Assa", "Recomendación", "WebLinks", "Búsqueda en Internet", "Redes Sociales", "Otros" };
-            string[] english = { "Basic", "Intermediate", "Advanced" };
-            string[] carrers = { "Ingenieria", "Administracion", "Otra" };
-            string[] countries = { "Argentina", "Brasil", "Mexico" };
-            string[] applyto = { "Argentina", "Brasil", "Mexico", "Chile", "Colombia", "Otro / Todos" };
-            ViewBag.applyTo = new SelectList(applyto);
-            ViewBag.countryList = new SelectList(countries);
-            ViewBag.carrerList = new SelectList(carrers);
-            ViewBag.englishList = new SelectList(english);
-            ViewBag.howtoList = new SelectList(howto);
-            ViewBag.availabilityList = new SelectList(availability);
             return View();
         }
 
@@ -58,55 +29,28 @@ namespace Azteca.Controllers
                 {
                     subject = model.cv_job_area[0]+" - ";
                     subject += model.cv_salary;
-                    subject += (model.cv_applyto.Equals("Otro / Todos")) ? " (MULTIPLE)" : "";
+                    subject += (model.cv_applyto.Equals("OTHER")) ? " (MULTIPLE)" : "";
                 } 
                     else
 	            {
                     subject = "No Job Area - ";
                     subject += model.cv_salary;
-                    subject += (model.cv_applyto.Equals("Otro / Todos")) ? " (MULTIPLE)" : "";
+                    subject += (model.cv_applyto.Equals("OTHER")) ? " (MULTIPLE)" : "";
 	            }
 
                 string body = ParseBody(model);
 
-                MailHelper.SendMail("gveloso@grupoassa.com", body, subject, model.cv_file);
+                //TEST
+                IEnumerable<string> address = CountryHelper.getAddress(model.cv_applyto);
+                //TEST
+
+                MailHelper.SendMail("lprieto@grupoassa.com", body, subject, model.cv_file);
 
                 return this.RedirectToAction("Submit","Upload",model.cv_name);
 
             }
 
             //INVALID MODEL
-            //REFILL INFO AND POST BACK
-
-            List<JobArea> l = new List<JobArea>();
-            l.Add(new JobArea { name = "Jovenes Profesionales" , id = "1"});
-            l.Add(new JobArea { name = "Consultoría SAP", id = "2" });
-            l.Add(new JobArea { name = "Consultoría Oracle", id = "3" });
-            l.Add(new JobArea { name = "Seguridad IT", id = "4" });
-            l.Add(new JobArea { name = "Consultoría en Procesos", id = "5" });
-            l.Add(new JobArea { name = "Programación", id = "6" });
-            l.Add(new JobArea { name = "Administración de Servidores", id = "7" });
-            l.Add(new JobArea { name = "RRHH", id = "8" });
-            l.Add(new JobArea { name = "Administración", id = "9" });
-            l.Add(new JobArea { name = "Marketing", id = "10" });
-            l.Add(new JobArea { name = "Legales", id = "11" });
-            l.Add(new JobArea { name = "Secretarias / Recepcionistas", id = "12" });
-            l.Add(new JobArea { name = "Finanzas", id = "13" });
-            ViewBag.jobAreas = l;
-
-            string[] availability = { "Full Time", "Part Time (6 horas)" };
-            string[] howto = { "Publicidad", "Reporte de Analistas", "Artículos o Noticias", "Eventos", "Empleado de Grupo Assa", "Recomendación", "WebLinks", "Búsqueda en Internet", "Redes Sociales", "Otros" };
-            string[] english = { "Basic", "Intermediate", "Advanced" };
-            string[] carrers = { "Ingenieria", "Administracion", "Otra" };
-            string[] countries = { "Argentina", "Brasil", "Mexico" };
-            string[] applyto = { "Argentina", "Brasil", "Mexico", "Chile", "Colombia", "Otro / Todos" };
-            ViewBag.applyTo = new SelectList(applyto);
-            ViewBag.countryList = new SelectList(countries);
-            ViewBag.carrerList = new SelectList(carrers);
-            ViewBag.englishList = new SelectList(english);
-            ViewBag.howtoList = new SelectList(howto);
-            ViewBag.availabilityList = new SelectList(availability);
-
             return View(model);
         }
 
@@ -171,18 +115,6 @@ namespace Azteca.Controllers
             body = body.Replace("{cv_salary}", model.cv_salary);
 
             return body;
-        }
-
-        public List<string> GetCountryList()
-        {
-
-            List<string> countries = new List<string>();
-            foreach (CultureInfo culture in CultureInfo.GetCultures(CultureTypes.SpecificCultures))
-            {
-                countries.Add(culture.NativeName);
-            }
-
-            return countries;
         }
 
 
