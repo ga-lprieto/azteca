@@ -127,7 +127,7 @@
     <value>Tenemos oficinas en Argentina, Brasil, Chile, USA y México, desde allí brindamos servicios a grandes compañías como: Kraft, Bayer, Danone, Petrobras, Shell, LAN, Arcor, Electrolux, Claro, mejorando sus plataformas SAP y Oracle, para integrarlas con tecnologías de vanguardia.</value>
   </data>
   <data name="AboutGA_WhatDoWeDo" xml:space="preserve">
-    <value>Qué hacemos.</value>
+    <value>Qué hacemos</value>
   </data>
   <data name="AboutGA_Tab01" xml:space="preserve">
     <value>Te contamos que es gA.</value>
@@ -259,7 +259,7 @@
     <value>Leer Mas!</value>
   </data>
   <data name="Index_WhatWeDo_Header" xml:space="preserve">
-    <value>Que ofrecemos.</value>
+    <value>Que hacemos</value>
   </data>
   <data name="Index_WhatWeDo_p1" xml:space="preserve">
     <value>Brindamos servicios de consultoría, donde vas a ayudar a clientes a transformar sus procesos de negocios a través de diferentes tecnologías.</value>
@@ -355,7 +355,7 @@
     <value>El email ingresado no es valido.</value>
   </data>
   <data name="Form_english" xml:space="preserve">
-    <value>Nivel de ingles</value>
+    <value>Nivel de inglés</value>
   </data>
   <data name="Form_english_req" xml:space="preserve">
     <value>El campo nivel de ingles es obligatorio.</value>
@@ -542,5 +542,14 @@
   </data>
   <data name="Locations_USA_Miami_p2" xml:space="preserve">
     <value>1 786 206 4803 - marketingusa@grupoassa.com</value>
+  </data>
+  <data name="Submit_cong" xml:space="preserve">
+    <value>Felicitaciones</value>
+  </data>
+  <data name="Submit_h2" xml:space="preserve">
+    <value>Tu curriculum vitae se ha cargado con exito.</value>
+  </data>
+  <data name="Submit_last" xml:space="preserve">
+    <value>Te estaremos contactando.</value>
   </data>
 </root>

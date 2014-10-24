@@ -534,4 +534,13 @@
   <data name="Locations_USA_Miami_p2" xml:space="preserve">
     <value>1 786 206 4803 - marketingusa@grupoassa.com</value>
   </data>
+  <data name="Submit_cong" xml:space="preserve">
+    <value>Parabéns</value>
+  </data>
+  <data name="Submit_h2" xml:space="preserve">
+    <value>Seu currículo é carregado com êxito.</value>
+  </data>
+  <data name="Submit_last" xml:space="preserve">
+    <value>Nós entraremos em contato com você.</value>
+  </data>
 </root>

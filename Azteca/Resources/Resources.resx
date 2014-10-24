@@ -542,4 +542,13 @@ Our goal is to develop high performance teams made up of people with strong inte
   <data name="Locations_MEX_Monterrey_p2" xml:space="preserve">
     <value>52 81 8000 7853 - marketingmx@grupoassa.com</value>
   </data>
+  <data name="Submit_cong" xml:space="preserve">
+    <value>Congratulations</value>
+  </data>
+  <data name="Submit_h2" xml:space="preserve">
+    <value>Your CV has been sent successfully.</value>
+  </data>
+  <data name="Submit_last" xml:space="preserve">
+    <value>We will be contacting you</value>
+  </data>
 </root>

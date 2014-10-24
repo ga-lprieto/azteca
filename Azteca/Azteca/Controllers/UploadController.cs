@@ -40,11 +40,8 @@ namespace Azteca.Controllers
 
                 string body = ParseBody(model);
 
-                //TEST
-                IEnumerable<string> address = CountryHelper.getAddress(model.cv_applyto);
-                //TEST
 
-                MailHelper.SendMail("lprieto@grupoassa.com", body, subject, model.cv_file);
+                MailHelper.SendMail(CountryHelper.getAddress(model.cv_applyto), body, subject, model.cv_file);
 
                 return this.RedirectToAction("Submit","Upload",model.cv_name);
 

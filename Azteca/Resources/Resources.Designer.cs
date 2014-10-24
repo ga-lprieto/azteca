@@ -1330,5 +1330,32 @@ namespace Resources {
                 return ResourceManager.GetString("Locations_USA_Miami_p2", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Congratulations.
+        /// </summary>
+        public static string Submit_cong {
+            get {
+                return ResourceManager.GetString("Submit_cong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your CV has been sent successfully..
+        /// </summary>
+        public static string Submit_h2 {
+            get {
+                return ResourceManager.GetString("Submit_h2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We will be contacting you.
+        /// </summary>
+        public static string Submit_last {
+            get {
+                return ResourceManager.GetString("Submit_last", resourceCulture);
+            }
+        }
     }
 }
