@@ -118,13 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutGA_p1" xml:space="preserve">
-    <value>Nós fornecemos serviços de consultoria, onde você vai ajudar os clientes a transformar seus processos de negócio através de diferentes tecnologias.</value>
+    <value>Somos o Grupo ASSA,  a companhía de Latino Americana líder em Digital Business Transformation. Estamos associados com empresas líderes em todo o  mundo para alcançar suas aspirações de negocios na América Latina e no mundo, e com empresas líderes latino americanas para satisfazer suas aspirações nacionais e internacionais. Com visão de futuro e compromisso constante, olhamos para frente e levamos a cabo nossos projetos com cada empresa com que nos associamos – We look ahead, we get things done.</value>
   </data>
   <data name="AboutGA_p2" xml:space="preserve">
-    <value>O Grupo ASSA é composto por mais de 1000 profissionais, que trabalham com inovação, paixão e talento nas mais diversas equipes e projetos distribuídos pela América Latina, USA, Europa e Ásia.</value>
+    <value>Somos o Grupo ASSA,  a companhía de Latino Americana líder em Digital Business Transformation. Estamos associados com empresas líderes em todo o  mundo para alcançar suas aspirações de negocios na América Latina e no mundo, e com empresas líderes latino americanas para satisfazer suas aspirações nacionais e internacionais. Com visão de futuro e compromisso constante, olhamos para frente e levamos a cabo nossos projetos com cada empresa com que nos associamos – We look ahead, we get things done.</value>
   </data>
   <data name="AboutGA_p3" xml:space="preserve">
-    <value>Trabalhamos com grandes clientes como: Kraft, Bayer, Danone, Petrobras, Shell, Electrolux, Camargo Correia, Bunge, Embraco, entre outros</value>
+    <value>Somos parceiros regionais de SAP, Oracle e Microsoft, e reconhecidos como especialistas globais na prática  JDE da Oracle. 
+
+Oferecemos vasto conhecimento nos setores de bens de consumo e manufatura, Retail, recursos naturais e energía, serviços bancários e financeiros e ciências da vida e cuidados com a saúde.</value>
   </data>
   <data name="AboutGA_Tab01" xml:space="preserve">
     <value>Te contamos o que e o Grupo ASSA</value>
@@ -133,7 +135,7 @@
     <value>Nossa Historia</value>
   </data>
   <data name="AboutGA_WhatDoWeDo" xml:space="preserve">
-    <value>O que fazemos</value>
+    <value>O que fazemos?</value>
   </data>
   <data name="GAPolicies_Aceptance_Header" xml:space="preserve">
     <value>8. Aceptación de estas Normas.</value>
@@ -244,13 +246,17 @@
     <value>Cadastre seu CV</value>
   </data>
   <data name="Index_JoinGA_p1" xml:space="preserve">
-    <value>O Grupo ASSA explora permanentemente o mercado de trabalho para incorporar novos talentos a nossa equipe de profissionais.</value>
+    <value>Escolher um lugar para trabalhar é uma das decisões mais importantes para os jovens profissionais. Ingresse na equipe do gA e participe de equipes que irão ajudá-lo a desenvolver a sua carreira.
+
+No gA procuramos pessoas com paixão, capaz de trabalhar em equipes multidisciplinares e construir relações duradouras com nossos clientes.
+
+Nossos escritórios estão estrategicamente localizados na Argentina, Brasil, Colômbia, Chile, México e Estados Unidos onde nós trabalhamos com clientes como Petrobras, Shell, LAN, Arcor, Electrolux e Claro fornecendo serviços de Digital Business Transformation (dbT).</value>
   </data>
   <data name="Index_WhatWeDo_Button" xml:space="preserve">
     <value>Leia mais!</value>
   </data>
   <data name="Index_WhatWeDo_Header" xml:space="preserve">
-    <value>O que fazemos</value>
+    <value>O que fazemos?</value>
   </data>
   <data name="Index_WhatWeDo_p1" xml:space="preserve">
     <value>Nós fornecemos serviços de consultoria, onde você vai ajudar os clientes a transformar seus processos de negócio através de diferentes tecnologias.</value>
@@ -262,10 +268,11 @@
     <value>Leia mais!</value>
   </data>
   <data name="Index_WhyTo_Header" xml:space="preserve">
-    <value>Por que eu deveria fazer parte da gA?</value>
+    <value>¿Por que trabalhar na gA?</value>
   </data>
   <data name="Index_WhyTo_p1" xml:space="preserve">
-    <value>Texto não mapeado</value>
+    <value>Sabemos que a escolha de um lugar para trabalhar é uma das decisões mais importantes, por isso, no gA vamos melhorar suas habilidades e iremos acompanhá-lo em seu desenvolvimento profissional.
+Temos para  lhe oferecer um plano de carreira, treinamento constante e benefícios exclusivos.</value>
   </data>
   <data name="Layout_policies" xml:space="preserve">
     <value>Por favor, leia os</value>
@@ -277,10 +284,10 @@
     <value>Idioma</value>
   </data>
   <data name="Layout_link_1" xml:space="preserve">
-    <value>O que fazemos</value>
+    <value>O que fazemos?</value>
   </data>
   <data name="Layout_link_2" xml:space="preserve">
-    <value>Onde estamos</value>
+    <value>Onde estamos?</value>
   </data>
   <data name="Layout_link_3" xml:space="preserve">
     <value>Cadastre seu CV</value>
@@ -493,7 +500,7 @@
     <value>571 658 1193 - marketingco@grupoassa.com</value>
   </data>
   <data name="Locations_Header_Main" xml:space="preserve">
-    <value>Onde estamos</value>
+    <value>Onde estamos?</value>
   </data>
   <data name="Locations_MEX" xml:space="preserve">
     <value>MÉXICO</value>

@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We offer the possibility to work alongside each client to undergo a business process tranformation through a high quality consulting service..
+        ///   Looks up a localized string similar to Grupo ASSA (gA) is the leading Latin American Digital Business Transformation organization. We partner with leading global companies to meet their business aspirations in Latin America and the world and with latin American firms who want to succeed both nationally and globally. With vision and high commitment, we look ahead and get things done for all our clients..
         /// </summary>
         public static string AboutGA_p1 {
             get {
@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We count with over 1200 professional resources who work alongside eachother by ringing into the game their pasion, ideas and talent in different multicultural teams and projects all across the world..
+        ///   Looks up a localized string similar to gA was created in 1992 by a group of consultants with entrepreneurial spirit and the vision of creating IT platforms that could transform organizations. Our Digital Business Transformation (dBT) model is widely recognized by industry analysts..
         /// </summary>
         public static string AboutGA_p2 {
             get {
@@ -79,7 +79,9 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We count with different estrategically located business offices in Argentina, Brazil, Chile, USA and Mexico from which we work alongside high profile clients such as Petrobras, Shell, LAN, Arcor, Electrolux, Claro in improving both their SAP and Oracle plataforms..
+        ///   Looks up a localized string similar to We are regional SAP, Oracle and Microsoft partners and global Oracle-JDEdwards specialists.
+        ///
+        ///Our consultants poses deep industry knowledge in Consumer Packaged Goods &amp;  Manufacturing, Retail, Natural Resources &amp; Energy, Banking &amp; Financial Services and Health..
         /// </summary>
         public static string AboutGA_p3 {
             get {
@@ -889,7 +891,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Send us your Curriculum Vitae.
+        ///   Looks up a localized string similar to Submit your CV.
         /// </summary>
         public static string Index_JoinGA_Header {
             get {
@@ -898,7 +900,11 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Choosing a place to work is probably one of the most important decisions for a young professional. Those joining Grupo ASSA participate in teams that enable them to quickly increase their skills and develop their career. We seek principled people, with passion and the capacity to work in multidisciplinary teams and build lasting relationships..
+        ///   Looks up a localized string similar to Choosing a place to work is probably one of the most important decisions for young professionals. Those joining gA participate in teams that enable them to quickly increase their skills and develop their career. 
+        ///
+        ///We look for passionate and principled people who has the capacity to work in multidisciplinary teams and build lasting relationships with our clients.
+        ///
+        ///Our offices are strategically located in Argentina, Brazil, Colombia, Chile, Mexico and the USA from where we work alongside high profile clie [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Index_JoinGA_p1 {
             get {
@@ -954,7 +960,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Why should I be part of gA?.
+        ///   Looks up a localized string similar to ¿Why work in gA?.
         /// </summary>
         public static string Index_WhyTo_Header {
             get {
@@ -963,7 +969,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Text not mapped yet..
+        ///   Looks up a localized string similar to We know that choosing a place to work is one of the most important decisions to take; that is why at gA we are going to enhance and support your career. 
+        ///We have a career plan, constant training and exclusive benefits to offer. Join us!.
         /// </summary>
         public static string Index_WhyTo_p1 {
             get {
@@ -990,7 +997,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to What we do.
+        ///   Looks up a localized string similar to What do we do?.
         /// </summary>
         public static string Layout_link_1 {
             get {
@@ -999,7 +1006,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Where we are.
+        ///   Looks up a localized string similar to Where are we?.
         /// </summary>
         public static string Layout_link_2 {
             get {
