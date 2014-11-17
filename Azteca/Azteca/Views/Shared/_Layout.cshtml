@@ -75,8 +75,12 @@
         <div id="content">
             @RenderBody()
         </div>
+        <hr />
         <div id="footer">
-
+            <div class="container">
+                <p class="text-right muted credit" style="font:12px Calibri">@Resources.Layout_policies <a href="@Url.Action("GAPolicies","Home")">@Resources.Layout_policies_link</a></p>
+                <p class="text-right muted credit" style="font:12px Calibri">Grupo ASSA&reg; 2014</p>
+            </div>
         </div>
     </div>
     

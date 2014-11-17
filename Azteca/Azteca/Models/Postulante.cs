@@ -74,5 +74,9 @@ namespace Azteca.Models
         [Display(Name = "Form_applyto", ResourceType = typeof(Resources.Resources))]
         public string cv_applyto { get; set; }
 
+        [Required(ErrorMessageResourceName = "Form_privacy_req",ErrorMessageResourceType = typeof(Resources.Resources))]
+        [Display(Name = "Form_privacy", ResourceType = typeof(Resources.Resources))]
+        public string privacy_accept { get; set; }
+
     }
 }

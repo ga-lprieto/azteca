@@ -178,7 +178,7 @@
     <value>Grupo ASSA.</value>
   </data>
   <data name="GAPolicies_Header" xml:space="preserve">
-    <value>Privacy Policies.</value>
+    <value>Política de privacidade</value>
   </data>
   <data name="GAPolicies_Jurisdiction_Header" xml:space="preserve">
     <value>7. Jurisdiction.</value>
@@ -267,8 +267,8 @@
   <data name="Index_WhyTo_p1" xml:space="preserve">
     <value>Texto não mapeado</value>
   </data>
-  <data name="TEST" xml:space="preserve">
-    <value>Prueba en Portuges</value>
+  <data name="Layout_policies" xml:space="preserve">
+    <value>Por favor, leia os</value>
   </data>
   <data name="Layout_Header" xml:space="preserve">
     <value>Empregos</value>
@@ -542,5 +542,20 @@
   </data>
   <data name="Submit_last" xml:space="preserve">
     <value>Nós entraremos em contato com você.</value>
+  </data>
+  <data name="Layout_policies_link" xml:space="preserve">
+    <value>termos de uso e política de privacidade</value>
+  </data>
+  <data name="Form_privacy" xml:space="preserve">
+    <value>Politicas de privacidad</value>
+  </data>
+  <data name="Form_privacy_label_1" xml:space="preserve">
+    <value>He leido y acepto las</value>
+  </data>
+  <data name="Form_privacy_label_2" xml:space="preserve">
+    <value>politicas de privacidad</value>
+  </data>
+  <data name="Form_privacy_req" xml:space="preserve">
+    <value>Para enviar su curriculum debe aceptar las politicas de privacidad del sitio.</value>
   </data>
 </root>

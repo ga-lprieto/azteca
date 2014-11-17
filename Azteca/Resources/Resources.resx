@@ -178,7 +178,7 @@
     <value>Grupo ASSA.</value>
   </data>
   <data name="GAPolicies_Header" xml:space="preserve">
-    <value>Privacy Policies.</value>
+    <value>Privacy policies</value>
   </data>
   <data name="GAPolicies_Jurisdiction_Header" xml:space="preserve">
     <value>7. Jurisdiction.</value>
@@ -247,7 +247,7 @@
     <value>Join gA!</value>
   </data>
   <data name="Index_HowWeWork_Button" xml:space="preserve">
-    <value>Read More!</value>
+    <value>Read more!</value>
   </data>
   <data name="Index_JoinGA_Header" xml:space="preserve">
     <value>Send us your Curriculum Vitae</value>
@@ -256,7 +256,7 @@
     <value>Choosing a place to work is probably one of the most important decisions for a young professional. Those joining Grupo ASSA participate in teams that enable them to quickly increase their skills and develop their career. We seek principled people, with passion and the capacity to work in multidisciplinary teams and build lasting relationships.</value>
   </data>
   <data name="Index_WhatWeDo_Button" xml:space="preserve">
-    <value>Read More!</value>
+    <value>Read more!</value>
   </data>
   <data name="Index_WhatWeDo_Header" xml:space="preserve">
     <value>What do we do?</value>
@@ -348,7 +348,7 @@ Our goal is to develop high performance teams made up of people with strong inte
     <value>Submit your CV</value>
   </data>
   <data name="Index_JoinGA_Button" xml:space="preserve">
-    <value>Read More!</value>
+    <value>Read more!</value>
   </data>
   <data name="Form_applyto" xml:space="preserve">
     <value>Apply to</value>
@@ -550,5 +550,23 @@ Our goal is to develop high performance teams made up of people with strong inte
   </data>
   <data name="Submit_last" xml:space="preserve">
     <value>We will be contacting you</value>
+  </data>
+  <data name="Layout_policies" xml:space="preserve">
+    <value>Please read our</value>
+  </data>
+  <data name="Layout_policies_link" xml:space="preserve">
+    <value>terms of use and privacy policy.</value>
+  </data>
+  <data name="Form_privacy" xml:space="preserve">
+    <value>Politicas de privacidad</value>
+  </data>
+  <data name="Form_privacy_label_1" xml:space="preserve">
+    <value>He leido y acepto las</value>
+  </data>
+  <data name="Form_privacy_label_2" xml:space="preserve">
+    <value>politicas de privacidad</value>
+  </data>
+  <data name="Form_privacy_req" xml:space="preserve">
+    <value>Para enviar su curriculum debe aceptar las politicas de privacidad del sitio.</value>
   </data>
 </root>

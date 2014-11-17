@@ -178,7 +178,7 @@
     <value>Grupo ASSA.</value>
   </data>
   <data name="GAPolicies_Header" xml:space="preserve">
-    <value>Politica de Privacidad.</value>
+    <value>Politicas de privacidad</value>
   </data>
   <data name="GAPolicies_Jurisdiction_Header" xml:space="preserve">
     <value>7. Jurisdicción.</value>
@@ -247,7 +247,7 @@
     <value>Sumate a gA!</value>
   </data>
   <data name="Index_HowWeWork_Button" xml:space="preserve">
-    <value>Leer Mas!</value>
+    <value>Leer mas!</value>
   </data>
   <data name="Index_JoinGA_Header" xml:space="preserve">
     <value>Carga tu CV.</value>
@@ -256,7 +256,7 @@
     <value>Grupo ASSA explora permanentemente el mercado laboral para incorporar nuevos talentos a equipos de profesionales y busca personas para trabajar en equipos multidisciplinarios que interactúan directamente con los clientes.</value>
   </data>
   <data name="Index_WhatWeDo_Button" xml:space="preserve">
-    <value>Leer Mas!</value>
+    <value>Leer mas!</value>
   </data>
   <data name="Index_WhatWeDo_Header" xml:space="preserve">
     <value>Que hacemos</value>
@@ -268,7 +268,7 @@
     <value>Somos una empresa Latinoamericana en la cual más de 1200 personas, aportan sus ideas, pasión y talento en múltiples equipos y proyectos en Latinoamérica, USA, Europa y Asia.</value>
   </data>
   <data name="Index_Whyto_Button" xml:space="preserve">
-    <value>Leer Mas!</value>
+    <value>Leer mas!</value>
   </data>
   <data name="Index_WhyTo_Header" xml:space="preserve">
     <value>Por que trabajar en gA.</value>
@@ -295,7 +295,7 @@
     <value>Ingresá tu CV</value>
   </data>
   <data name="Index_JoinGA_Button" xml:space="preserve">
-    <value>Leer Mas!</value>
+    <value>Leer mas!</value>
   </data>
   <data name="Form_applyto" xml:space="preserve">
     <value>Aplicar a</value>
@@ -551,5 +551,23 @@
   </data>
   <data name="Submit_last" xml:space="preserve">
     <value>Te estaremos contactando.</value>
+  </data>
+  <data name="Layout_policies" xml:space="preserve">
+    <value>Por favor lea las</value>
+  </data>
+  <data name="Layout_policies_link" xml:space="preserve">
+    <value>condiciones de uso y política de privacidad.</value>
+  </data>
+  <data name="Form_privacy" xml:space="preserve">
+    <value>Politicas de privacidad</value>
+  </data>
+  <data name="Form_privacy_label_1" xml:space="preserve">
+    <value>He leido y acepto las</value>
+  </data>
+  <data name="Form_privacy_label_2" xml:space="preserve">
+    <value>politicas de privacidad</value>
+  </data>
+  <data name="Form_privacy_req" xml:space="preserve">
+    <value>Para enviar su curriculum debe aceptar las politicas de privacidad del sitio.</value>
   </data>
 </root>

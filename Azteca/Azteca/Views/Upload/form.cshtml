@@ -14,7 +14,7 @@
 <style>
     .required {
         color:red;
-        font-weight:bold;
+        font-weight:bold !important;
         margin-left: 2px;
     
     }
@@ -22,10 +22,10 @@
 </style>
 
 
-<div class="container-fluid">
+<div class="container-fluid text-normal">
     <div class="row-fluid">
         <div class="span3 hidden-phone">
-            <h2>@Resources.Form_h1</h2>
+            <h2 class="text-head">@Resources.Form_h1</h2>
             <hr />
             <img src="http://grupoassa.com/wp-content/uploads/2012/04/Foto1020-960x319.jpg" /><br /><br />
             <p>@Resources.Form_text</p>
@@ -105,9 +105,19 @@
                 @f.ControlGroup().TextBoxFor(m => m.cv_salary).Size(InputSize.Medium).Placeholder(Resources.Form_salary_ph1).Prepend(Resources.Form_salary_ph2).Append(".00")
                 @f.ControlGroup().FileFor(m => m.cv_file)
 
-
-
-
+                <br />
+                <div class="control-group">
+                    <label class="control-label"></label>
+                    <div class="controls">
+                            <label class="checkbox">
+                                <input name="privacy_accept" type="checkbox"> @Resources.Form_privacy_label_1 <a href="@Url.Action("GAPolicies","Home")">@Resources.Form_privacy_label_2</a> <span class="required">*</span>
+                            </label>
+                        <span style="color:#b94a48">@Html.ValidationMessageFor(m => m.privacy_accept)</span>
+                    </div>
+        
+                </div>
+                
+                
                 @f.ControlGroup().CustomControls(Html.Bootstrap().SubmitButton().Class("btn-success"))
             }
         </div>

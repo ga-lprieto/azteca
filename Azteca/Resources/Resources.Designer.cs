@@ -412,6 +412,42 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Politicas de privacidad.
+        /// </summary>
+        public static string Form_privacy {
+            get {
+                return ResourceManager.GetString("Form_privacy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to He leido y acepto las.
+        /// </summary>
+        public static string Form_privacy_label_1 {
+            get {
+                return ResourceManager.GetString("Form_privacy_label_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to politicas de privacidad.
+        /// </summary>
+        public static string Form_privacy_label_2 {
+            get {
+                return ResourceManager.GetString("Form_privacy_label_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Para enviar su curriculum debe aceptar las politicas de privacidad del sitio..
+        /// </summary>
+        public static string Form_privacy_req {
+            get {
+                return ResourceManager.GetString("Form_privacy_req", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Estimated salary.
         /// </summary>
         public static string Form_salary {
@@ -628,7 +664,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Privacy Policies..
+        ///   Looks up a localized string similar to Privacy policies.
         /// </summary>
         public static string GAPolicies_Header {
             get {
@@ -835,7 +871,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Read More!.
+        ///   Looks up a localized string similar to Read more!.
         /// </summary>
         public static string Index_HowWeWork_Button {
             get {
@@ -844,7 +880,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Read More!.
+        ///   Looks up a localized string similar to Read more!.
         /// </summary>
         public static string Index_JoinGA_Button {
             get {
@@ -871,7 +907,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Read More!.
+        ///   Looks up a localized string similar to Read more!.
         /// </summary>
         public static string Index_WhatWeDo_Button {
             get {
@@ -977,6 +1013,24 @@ namespace Resources {
         public static string Layout_link_3 {
             get {
                 return ResourceManager.GetString("Layout_link_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please read our.
+        /// </summary>
+        public static string Layout_policies {
+            get {
+                return ResourceManager.GetString("Layout_policies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to terms of use and privacy policy..
+        /// </summary>
+        public static string Layout_policies_link {
+            get {
+                return ResourceManager.GetString("Layout_policies_link", resourceCulture);
             }
         }
         

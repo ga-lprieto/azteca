@@ -15,7 +15,7 @@
     }
 
         .jumbotron h1 {
-            font-size: 80px;
+            font-size: 80px !important;
             line-height: 1;
         }
 
@@ -26,12 +26,12 @@
 
 <div class="jumbotron">
     <div class="img-rounded"><center><img src="~/Content/Images/Miscelaneous/AboutGA.jpg"></center></div>
-    <h1>@Resources.AboutGA_WhatDoWeDo</h1>
+    <h1 class="text-head">@Resources.AboutGA_WhatDoWeDo</h1>
 </div>
 
 <hr>
 
-<div class="row-fluid">
+<div class="row-fluid text-normal">
     <div class="span5 offset1">
         <p>@Resources.AboutGA_p1</p>
         <p>@Resources.AboutGA_p2</p>
@@ -40,13 +40,13 @@
         <p>@Resources.AboutGA_p3</p>
     </div>
 </div>
-
+<hr />
 <center>
             <ul id="myTab" class="nav nav-tabs">
-                <li class="">
+                <li class="text-head">
                     <a href="#TeContamos" data-toggle="tab">@Resources.AboutGA_Tab01</a>
                 </li>
-                <li class="">
+                <li class="text-head">
                     <a href="#NuestraHistoria" data-toggle="tab">@Resources.AboutGA_Tab02</a>
                 </li>
             </ul>

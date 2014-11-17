@@ -147,6 +147,7 @@
     <Content Include="Content\Images\Flags\Argentina.png" />
     <Content Include="Content\Images\Flags\Brazil.png" />
     <Content Include="Content\Images\Flags\ga.jpg" />
+    <Content Include="Content\Images\Flags\Mexico.png" />
     <Content Include="Content\Images\Flags\Usa.png" />
     <Content Include="Content\Images\Miscelaneous\AboutGA.jpg" />
     <Content Include="Content\Images\Miscelaneous\Amcor.jpg" />
