@@ -113,7 +113,7 @@
       <HintPath>..\packages\T4MVCExtensions.3.6.5\lib\net40\T4MVCExtensions.dll</HintPath>
     </Reference>
     <Reference Include="TwitterBootstrapMVC4">
-      <HintPath>..\packages\TwitterBootstrapMVC.3.13.10\lib\net40\TwitterBootstrapMVC4.dll</HintPath>
+      <HintPath>..\packages\TwitterBootstrapMVC.3.13.11\lib\net40\TwitterBootstrapMVC4.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
